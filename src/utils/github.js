@@ -9,6 +9,12 @@ function getOctokit() {
   return new Octokit({ auth: TOKEN })
 }
 
+function decodeBase64Utf8(b64) {
+  const binary = atob(b64.replace(/\s/g, ''))
+  const bytes = Uint8Array.from(binary, c => c.charCodeAt(0))
+  return new TextDecoder('utf-8').decode(bytes)
+}
+
 async function getRecipes() {
   try {
     const octokit = getOctokit()
@@ -22,7 +28,7 @@ async function getRecipes() {
           const { data } = await octokit.repos.getContent({
             owner: OWNER, repo: REPO, path: file.path, ref: BRANCH
           })
-          return JSON.parse(atob(data.content))
+          return JSON.parse(decodeBase64Utf8(data.content))
         })
     )
     return recipes.sort((a, b) => new Date(b.updated_at) - new Date(a.updated_at))
