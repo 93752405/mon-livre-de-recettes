@@ -1,0 +1,17 @@
+{
+  "name": "Mon livre de recettes",
+  "short_name": "Recettes",
+  "description": "Mon livre de recettes personnel",
+  "start_url": "/mon-livre-de-recettes/",
+  "display": "standalone",
+  "background_color": "#f5f0e8",
+  "theme_color": "#5c4a35",
+  "icons": [
+    {
+      "src": "/mon-livre-de-recettes/apple-touch-icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

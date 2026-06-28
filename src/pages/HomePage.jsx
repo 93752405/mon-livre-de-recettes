@@ -37,8 +37,8 @@ export default function HomePage() {
         </div>
 
         {/* Search + actions bar */}
-        <div style={{ display: 'flex', gap: '0.75rem', marginBottom: '1.5rem', flexWrap: 'wrap' }}>
-          <div style={{ flex: 1, minWidth: '220px', position: 'relative' }}>
+        <div style={{ marginBottom: '1.5rem' }}>
+          <div style={{ position: 'relative', marginBottom: '0.75rem' }}>
             <Search size={15} style={{
               position: 'absolute', left: '0.75rem', top: '50%', transform: 'translateY(-50%)',
               color: 'var(--color-stone)', pointerEvents: 'none'
@@ -61,30 +61,32 @@ export default function HomePage() {
             )}
           </div>
 
-          <button
-            onClick={() => setShowFilters(!showFilters)}
-            className={showFilters || activeFilterCount > 0 ? 'btn-primary' : 'btn-secondary'}
-            type="button"
-          >
-            <SlidersHorizontal size={15} />
-            Filtres
-            {activeFilterCount > 0 && ` (${activeFilterCount})`}
-          </button>
+          <div style={{ display: 'flex', gap: '0.75rem', flexWrap: 'wrap' }}>
+            <button
+              onClick={() => setShowFilters(!showFilters)}
+              className={showFilters || activeFilterCount > 0 ? 'btn-primary' : 'btn-secondary'}
+              type="button"
+            >
+              <SlidersHorizontal size={15} />
+              Filtres
+              {activeFilterCount > 0 && ` (${activeFilterCount})`}
+            </button>
 
-          <button onClick={loadRecipes} className="btn-secondary" type="button" title="Actualiser">
-            <RefreshCw size={15} />
-          </button>
+            <button onClick={loadRecipes} className="btn-secondary" type="button" title="Actualiser">
+              <RefreshCw size={15} />
+            </button>
 
-          {isAdmin && (
-            <>
-              <Link to="/ajouter" className="btn-primary">
-                <Plus size={15} /> Ajouter
-              </Link>
-              <Link to="/importer" className="btn-secondary">
-                <Upload size={15} /> Importer JSON
-              </Link>
-            </>
-          )}
+            {isAdmin && (
+              <>
+                <Link to="/ajouter" className="btn-primary">
+                  <Plus size={15} /> Ajouter
+                </Link>
+                <Link to="/importer" className="btn-secondary">
+                  <Upload size={15} /> Importer JSON
+                </Link>
+              </>
+            )}
+          </div>
         </div>
 
         {/* Filter panel */}
