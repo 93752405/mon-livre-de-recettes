@@ -28,10 +28,7 @@ export default function RecipeFormPage() {
   useEffect(() => {
     if (isEdit) {
       const found = recipes.find(r => r.id === id)
-      if (found) {
-        setRecipe(found)
-        // Convert arrays to string inputs for display
-      }
+      if (found) setRecipe(found)
     }
   }, [id, recipes])
 
@@ -61,20 +58,12 @@ export default function RecipeFormPage() {
     }
   }
 
-  function removeTag(tag) {
-    setRecipe(r => ({ ...r, tags: r.tags.filter(t => t !== tag) }))
-  }
-
   function addIngredient() {
     const t = ingInput.trim()
     if (t) {
       setRecipe(r => ({ ...r, ingredients: [...r.ingredients, t] }))
       setIngInput('')
     }
-  }
-
-  function removeIngredient(i) {
-    setRecipe(r => ({ ...r, ingredients: r.ingredients.filter((_, idx) => idx !== i) }))
   }
 
   function addStep() {
@@ -85,20 +74,12 @@ export default function RecipeFormPage() {
     }
   }
 
-  function removeStep(i) {
-    setRecipe(r => ({ ...r, instructions: r.instructions.filter((_, idx) => idx !== i) }))
-  }
-
   function addNote() {
     const t = noteInput.trim()
     if (t) {
       setRecipe(r => ({ ...r, notes: [...r.notes, t] }))
       setNoteInput('')
     }
-  }
-
-  function removeNote(i) {
-    setRecipe(r => ({ ...r, notes: r.notes.filter((_, idx) => idx !== i) }))
   }
 
   async function handleImageUpload(e) {
@@ -251,7 +232,6 @@ export default function RecipeFormPage() {
                   <input className="input-field" value={recipe.meta.region || ''} onChange={e => setMeta('region', e.target.value)} placeholder="ex: méditerranéen" />
                 </div>
               </Row>
-
               <Row>
                 <div>
                   <label className="label">Statut</label>
@@ -264,7 +244,6 @@ export default function RecipeFormPage() {
                   <input className="input-field" type="number" min={1} value={recipe.meta.servings || ''} onChange={e => setMeta('servings', Number(e.target.value))} placeholder="4" />
                 </div>
               </Row>
-
               <div style={{ marginBottom: '1rem' }}>
                 <label className="label">Évaluation</label>
                 <StarRating rating={recipe.meta.rating} onChange={v => setMeta('rating', v)} size={22} />
@@ -293,7 +272,7 @@ export default function RecipeFormPage() {
             <Section title="Tags (max 10)">
               <div style={{ display: 'flex', flexWrap: 'wrap', gap: '0.375rem', marginBottom: '0.75rem' }}>
                 {recipe.tags.map(t => (
-                  <button key={t} type="button" onClick={() => removeTag(t)} className="tag active" style={{ gap: '0.375rem' }}>
+                  <button key={t} type="button" onClick={() => setRecipe(r => ({ ...r, tags: r.tags.filter(x => x !== t) }))} className="tag active" style={{ gap: '0.375rem' }}>
                     {t} <span style={{ fontSize: '0.8rem' }}>×</span>
                   </button>
                 ))}
@@ -320,7 +299,7 @@ export default function RecipeFormPage() {
                   return (
                     <div key={i} style={{ display: 'flex', gap: '0.5rem', alignItems: 'center', padding: '0.4rem 0', borderBottom: '1px solid var(--color-warm)' }}>
                       <span style={{ flex: 1, fontFamily: 'system-ui, sans-serif', fontSize: '0.875rem', color: 'var(--color-ink)' }}>{text}</span>
-                      <button type="button" onClick={() => removeIngredient(i)} style={{ background: 'none', border: 'none', cursor: 'pointer', color: 'var(--color-stone)', padding: '2px' }}>
+                      <button type="button" onClick={() => setRecipe(r => ({ ...r, ingredients: r.ingredients.filter((_, idx) => idx !== i) }))} style={{ background: 'none', border: 'none', cursor: 'pointer', color: 'var(--color-stone)', padding: '2px' }}>
                         <Minus size={14} />
                       </button>
                     </div>
@@ -351,7 +330,7 @@ export default function RecipeFormPage() {
                         fontSize: '0.7rem', color: 'var(--color-earth)', fontWeight: 600, marginTop: '2px'
                       }}>{i + 1}</span>
                       <span style={{ flex: 1, fontFamily: 'system-ui, sans-serif', fontSize: '0.875rem', color: 'var(--color-ink)', lineHeight: 1.5 }}>{text}</span>
-                      <button type="button" onClick={() => removeStep(i)} style={{ background: 'none', border: 'none', cursor: 'pointer', color: 'var(--color-stone)', padding: '2px', flexShrink: 0 }}>
+                      <button type="button" onClick={() => setRecipe(r => ({ ...r, instructions: r.instructions.filter((_, idx) => idx !== i) }))} style={{ background: 'none', border: 'none', cursor: 'pointer', color: 'var(--color-stone)', padding: '2px', flexShrink: 0 }}>
                         <Minus size={14} />
                       </button>
                     </div>
@@ -376,7 +355,7 @@ export default function RecipeFormPage() {
                   return (
                     <div key={i} style={{ display: 'flex', gap: '0.5rem', alignItems: 'flex-start', padding: '0.4rem 0', borderBottom: '1px solid var(--color-warm)' }}>
                       <span style={{ flex: 1, fontFamily: 'system-ui, sans-serif', fontSize: '0.875rem', color: 'var(--color-ink)', lineHeight: 1.5 }}>{text}</span>
-                      <button type="button" onClick={() => removeNote(i)} style={{ background: 'none', border: 'none', cursor: 'pointer', color: 'var(--color-stone)', padding: '2px', flexShrink: 0 }}>
+                      <button type="button" onClick={() => setRecipe(r => ({ ...r, notes: r.notes.filter((_, idx) => idx !== i) }))} style={{ background: 'none', border: 'none', cursor: 'pointer', color: 'var(--color-stone)', padding: '2px', flexShrink: 0 }}>
                         <Minus size={14} />
                       </button>
                     </div>

@@ -46,7 +46,6 @@ export default function RecipePage() {
   return (
     <Layout>
       <div className="fade-in" style={{ maxWidth: '800px', margin: '0 auto' }}>
-        {/* Back */}
         <Link to="/" style={{
           display: 'inline-flex', alignItems: 'center', gap: '0.375rem',
           fontFamily: 'system-ui, sans-serif', fontSize: '0.8rem',
@@ -55,7 +54,6 @@ export default function RecipePage() {
           <ArrowLeft size={14} /> Toutes les recettes
         </Link>
 
-        {/* Cover image */}
         {image?.cover && (
           <div style={{
             height: '320px', borderRadius: '0.5rem', overflow: 'hidden',
@@ -65,7 +63,6 @@ export default function RecipePage() {
           </div>
         )}
 
-        {/* Title + actions */}
         <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', gap: '1rem', marginBottom: '1rem' }}>
           <h1 style={{ fontSize: '2rem', color: 'var(--color-ink)', lineHeight: 1.2 }}>{title}</h1>
           <div style={{ display: 'flex', gap: '0.5rem', flexShrink: 0 }}>
@@ -95,7 +92,6 @@ export default function RecipePage() {
           </p>
         )}
 
-        {/* Meta chips */}
         <div style={{ display: 'flex', flexWrap: 'wrap', gap: '0.75rem', marginBottom: '1.5rem', alignItems: 'center' }}>
           {meta?.time?.total_minutes > 0 && (
             <span style={{ display: 'flex', alignItems: 'center', gap: '0.375rem', fontFamily: 'system-ui, sans-serif', fontSize: '0.875rem', color: 'var(--color-bark)' }}>
@@ -125,7 +121,6 @@ export default function RecipePage() {
           )}
         </div>
 
-        {/* Time details */}
         {(meta?.time?.prep_minutes > 0 || meta?.time?.cook_minutes > 0) && (
           <div style={{
             display: 'flex', gap: '1.5rem', padding: '1rem 1.25rem',
@@ -159,17 +154,15 @@ export default function RecipePage() {
           </div>
         )}
 
-        {/* Tags */}
         {tags?.length > 0 && (
           <div style={{ display: 'flex', flexWrap: 'wrap', gap: '0.375rem', marginBottom: '2rem' }}>
             {tags.map(t => (
-              <Link key={t} to={`/?tag=${encodeURIComponent(t)}`} className="tag">{t}</Link>
+              <span key={t} className="tag" style={{ cursor: 'default' }}>{t}</span>
             ))}
           </div>
         )}
 
         <div style={{ display: 'grid', gridTemplateColumns: 'minmax(0, 1fr) minmax(0, 1.6fr)', gap: '2.5rem' }} className="recipe-grid">
-          {/* Ingredients */}
           {ingredients?.length > 0 && (
             <div>
               <h2 style={{ fontSize: '1.1rem', marginBottom: '1rem', color: 'var(--color-ink)' }}>Ingrédients</h2>
@@ -192,7 +185,6 @@ export default function RecipePage() {
             </div>
           )}
 
-          {/* Instructions */}
           {instructions?.length > 0 && (
             <div>
               <h2 style={{ fontSize: '1.1rem', marginBottom: '1rem', color: 'var(--color-ink)' }}>Préparation</h2>
@@ -220,7 +212,6 @@ export default function RecipePage() {
           )}
         </div>
 
-        {/* Notes */}
         {notes?.length > 0 && (
           <div style={{
             marginTop: '2rem', padding: '1.25rem',
@@ -235,7 +226,6 @@ export default function RecipePage() {
           </div>
         )}
 
-        {/* Source */}
         {meta?.source?.name && (
           <div style={{ marginTop: '1.5rem', paddingTop: '1.5rem', borderTop: '1px solid var(--color-warm)' }}>
             <span style={{ fontFamily: 'system-ui, sans-serif', fontSize: '0.8rem', color: 'var(--color-stone)' }}>

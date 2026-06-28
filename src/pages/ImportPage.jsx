@@ -82,7 +82,7 @@ export default function ImportPage() {
       setSaved(true)
       setTimeout(() => navigate(`/recette/${preview.id}`), 1200)
     } catch (e) {
-      setError('Erreur lors de l\'import : ' + e.message)
+      setError("Erreur lors de l'import : " + e.message)
     } finally {
       setSaving(false)
     }
@@ -98,7 +98,6 @@ export default function ImportPage() {
 
         {!saved ? (
           <>
-            {/* Drop zone */}
             <div
               onDragOver={e => { e.preventDefault(); setDragOver(true) }}
               onDragLeave={() => setDragOver(false)}
@@ -126,7 +125,6 @@ export default function ImportPage() {
                 onChange={e => parseFile(e.target.files?.[0])} />
             </div>
 
-            {/* JSON direct paste */}
             <div style={{ marginBottom: '1.5rem' }}>
               <label className="label">Ou coller le JSON directement</label>
               <textarea className="input-field" rows={6} style={{ fontFamily: 'monospace', fontSize: '0.8rem', resize: 'vertical' }}
@@ -145,7 +143,6 @@ export default function ImportPage() {
               </div>
             )}
 
-            {/* Preview */}
             {preview && (
               <div style={{ backgroundColor: 'white', borderRadius: '0.5rem', border: '1px solid var(--color-warm)', padding: '1.5rem', marginBottom: '1.5rem' }}>
                 <h3 style={{ fontSize: '1rem', color: 'var(--color-ink)', marginBottom: '0.75rem' }}>Aperçu</h3>
@@ -194,7 +191,6 @@ export default function ImportPage() {
           </div>
         )}
 
-        {/* Format JSON reference */}
         <details style={{ marginTop: '2rem' }}>
           <summary style={{ fontFamily: 'system-ui, sans-serif', fontSize: '0.8rem', color: 'var(--color-bark)', cursor: 'pointer', marginBottom: '0.75rem' }}>
             Voir le format JSON attendu
