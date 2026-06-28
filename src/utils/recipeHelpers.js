@@ -105,7 +105,3 @@ export function formatTime(minutes) {
   const m = minutes % 60
   return m > 0 ? `${h}h${m.toString().padStart(2, '0')}` : `${h}h`
 }
-
-export function Stars({ rating, onChange }) {
-  return null
-}
