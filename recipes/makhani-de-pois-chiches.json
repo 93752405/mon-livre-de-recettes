@@ -1,0 +1,67 @@
+{
+  "id": "makhani-de-pois-chiches",
+  "title": "Makhani de pois chiches",
+  "description": "Un plat indien épicé et crémeux à base de pois chiches, sublimé par une salade rafraîchissante à la lime et accompagné de naans grillés au beurre à l'ail.",
+  "image": {
+    "cover": ""
+  },
+  "meta": {
+    "category": "souper",
+    "protein": "végétarien",
+    "season": "automne",
+    "region": "indienne",
+    "status": "à essayer",
+    "rating": null,
+    "time": {
+      "prep_minutes": 15,
+      "cook_minutes": 20,
+      "total_minutes": 35,
+      "difficulty": "standard"
+    },
+    "servings": 4,
+    "source": {
+      "type": "livre",
+      "name": "Good Food",
+      "url": ""
+    }
+  },
+  "tags": [
+    "végétarien",
+    "souper",
+    "standard",
+    "automne",
+    "indien",
+    "épicé",
+    "comfort food",
+    "pois chiches"
+  ],
+  "ingredients": [
+    "2 c. à soupe d'ail haché",
+    "4 concombres",
+    "2 limes",
+    "4 tomates",
+    "1080 ml de pois chiches en conserve",
+    "400 ml de sauce tomate",
+    "2 c. à soupe de pâte de tandoori",
+    "180 ml de crème",
+    "4 naans",
+    "24 g d'épices du plaisir (coriandre, poivre noir, cumin, fenouil, fenugrec, ail, gingembre, paprika, curcuma, sel de mer, cassonade)",
+    "2 c. à soupe de beurre",
+    "4 c. à soupe d'huile",
+    "2 c. à soupe de jus de lime"
+  ],
+  "instructions": [
+    "Préchauffer le four à 450 °F. Égoutter et rincer les pois chiches. Dans une grande poêle à bord haut, chauffer un filet d'huile à feu moyen-vif. Faire sauter la pâte de tandoori et 1/2 de l'ail 1 à 2 min. Ajouter les pois chiches, la sauce tomate, 1 tasse d'eau et les épices. Porter à ébullition. Réduire à feu moyen et cuire 10 à 12 min.",
+    "Couper les concombres en deux sur la longueur, puis trancher en biseau. Couper les tomates en dés moyens. Zester et presser les limes. Dans un petit bol, faire fondre 2 c. à soupe de beurre et l'ail restant au micro-ondes, 15 s à la fois.",
+    "Dans un grand bol, mélanger 2 c. à soupe de jus de lime et 4 c. à soupe d'huile. Ajouter les tomates et les concombres. Mélanger.",
+    "Disposer les naans sur une plaque recouverte de papier parchemin. Badigeonner avec le beurre à l'ail. Enfourner 2 à 4 min.",
+    "À la poêle de makhani, ajouter la crème et 4 c. à soupe de beurre. Écraser grossièrement 1/2 des pois chiches. Cuire 1 à 2 min. Servir avec la salade et les naans grillés."
+  ],
+  "notes": [
+    "La recette est également délicieuse en automne et en hiver selon les saisons indiquées sur l'emballage d'origine.",
+    "Le mélange d'épices 'du plaisir' peut être remplacé par un mélange de garam masala maison.",
+    "Pour une version végétalienne, remplacer la crème par de la crème de coco et le beurre par de la margarine végétale."
+  ],
+  "created_at": "2026-06-28T10:00:00.000Z",
+  "updated_at": "2026-06-28T22:06:26.856Z"
+}
