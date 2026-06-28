@@ -22,7 +22,9 @@ async function getRecipes() {
           const { data } = await octokit.repos.getContent({
             owner: OWNER, repo: REPO, path: file.path, ref: BRANCH
           })
-          return JSON.parse(atob(data.content))
+          const binary = atob(data.content.replace(/\s/g, ''))
+          const bytes = Uint8Array.from(binary, c => c.charCodeAt(0))
+          return JSON.parse(new TextDecoder('utf-8').decode(bytes))
         })
     )
     return recipes.sort((a, b) => new Date(b.updated_at) - new Date(a.updated_at))
