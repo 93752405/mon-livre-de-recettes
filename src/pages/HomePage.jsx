@@ -26,6 +26,7 @@ export default function HomePage() {
   return (
     <Layout>
       <div className="fade-in">
+        {/* Header */}
         <div style={{ marginBottom: '2rem' }}>
           <h1 style={{ fontSize: '1.75rem', color: 'var(--color-ink)', marginBottom: '0.25rem' }}>
             Mes recettes
@@ -35,8 +36,9 @@ export default function HomePage() {
           </p>
         </div>
 
-        <div style={{ display: 'flex', gap: '0.75rem', marginBottom: '1.5rem', flexWrap: 'wrap' }}>
-          <div style={{ flex: 1, minWidth: '220px', position: 'relative' }}>
+        {/* Search + actions bar */}
+        <div style={{ marginBottom: '1.5rem' }}>
+          <div style={{ position: 'relative', marginBottom: '0.75rem' }}>
             <Search size={15} style={{
               position: 'absolute', left: '0.75rem', top: '50%', transform: 'translateY(-50%)',
               color: 'var(--color-stone)', pointerEvents: 'none'
@@ -59,32 +61,35 @@ export default function HomePage() {
             )}
           </div>
 
-          <button
-            onClick={() => setShowFilters(!showFilters)}
-            className={showFilters || activeFilterCount > 0 ? 'btn-primary' : 'btn-secondary'}
-            type="button"
-          >
-            <SlidersHorizontal size={15} />
-            Filtres
-            {activeFilterCount > 0 && ` (${activeFilterCount})`}
-          </button>
+          <div style={{ display: 'flex', gap: '0.75rem', flexWrap: 'wrap' }}>
+            <button
+              onClick={() => setShowFilters(!showFilters)}
+              className={showFilters || activeFilterCount > 0 ? 'btn-primary' : 'btn-secondary'}
+              type="button"
+            >
+              <SlidersHorizontal size={15} />
+              Filtres
+              {activeFilterCount > 0 && ` (${activeFilterCount})`}
+            </button>
 
-          <button onClick={loadRecipes} className="btn-secondary" type="button" title="Actualiser">
-            <RefreshCw size={15} />
-          </button>
+            <button onClick={loadRecipes} className="btn-secondary" type="button" title="Actualiser">
+              <RefreshCw size={15} />
+            </button>
 
-          {isAdmin && (
-            <>
-              <Link to="/ajouter" className="btn-primary">
-                <Plus size={15} /> Ajouter
-              </Link>
-              <Link to="/importer" className="btn-secondary">
-                <Upload size={15} /> Importer JSON
-              </Link>
-            </>
-          )}
+            {isAdmin && (
+              <>
+                <Link to="/ajouter" className="btn-primary">
+                  <Plus size={15} /> Ajouter
+                </Link>
+                <Link to="/importer" className="btn-secondary">
+                  <Upload size={15} /> Importer JSON
+                </Link>
+              </>
+            )}
+          </div>
         </div>
 
+        {/* Filter panel */}
         {showFilters && (
           <div style={{ marginBottom: '1.5rem' }}>
             <FilterPanel
@@ -97,6 +102,7 @@ export default function HomePage() {
           </div>
         )}
 
+        {/* Content */}
         {loading ? (
           <div style={{ textAlign: 'center', padding: '4rem 0', color: 'var(--color-stone)', fontFamily: 'system-ui, sans-serif' }}>
             Chargement des recettes…
@@ -116,7 +122,7 @@ export default function HomePage() {
           <div style={{ textAlign: 'center', padding: '4rem 0' }}>
             <div style={{ fontSize: '2.5rem', marginBottom: '1rem' }}>🍽</div>
             <p style={{ fontFamily: 'system-ui, sans-serif', color: 'var(--color-stone)', marginBottom: '0.5rem' }}>
-              {recipes.length === 0 ? "Aucune recette pour l'instant." : 'Aucune recette ne correspond à ces filtres.'}
+              {recipes.length === 0 ? 'Aucune recette pour l\'instant.' : 'Aucune recette ne correspond à ces filtres.'}
             </p>
             {isAdmin && recipes.length === 0 && (
               <Link to="/ajouter" className="btn-primary" style={{ marginTop: '1rem', display: 'inline-flex' }}>
