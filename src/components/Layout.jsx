@@ -1,5 +1,5 @@
 import { Link, useLocation } from 'react-router-dom'
-import { BookOpen, Plus, Search, LogOut, Menu, X } from 'lucide-react'
+import { BookOpen, LogOut, Menu, X } from 'lucide-react'
 import { useState } from 'react'
 import { useApp } from '../context/AppContext'
 
@@ -34,7 +34,6 @@ export default function Layout({ children }) {
               </span>
             </Link>
 
-            {/* Desktop nav */}
             <nav style={{ display: 'flex', alignItems: 'center', gap: '1.5rem' }} className="desktop-nav">
               {navLinks.map(l => (
                 <Link key={l.to} to={l.to} style={{
@@ -69,7 +68,6 @@ export default function Layout({ children }) {
               </button>
             </nav>
 
-            {/* Mobile hamburger */}
             <button
               onClick={() => setMenuOpen(!menuOpen)}
               className="mobile-nav-btn"
@@ -80,7 +78,6 @@ export default function Layout({ children }) {
           </div>
         </div>
 
-        {/* Mobile menu */}
         {menuOpen && (
           <div style={{
             borderTop: '1px solid var(--color-warm)',

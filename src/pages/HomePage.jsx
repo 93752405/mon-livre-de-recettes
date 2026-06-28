@@ -26,7 +26,6 @@ export default function HomePage() {
   return (
     <Layout>
       <div className="fade-in">
-        {/* Header */}
         <div style={{ marginBottom: '2rem' }}>
           <h1 style={{ fontSize: '1.75rem', color: 'var(--color-ink)', marginBottom: '0.25rem' }}>
             Mes recettes
@@ -36,7 +35,6 @@ export default function HomePage() {
           </p>
         </div>
 
-        {/* Search + actions bar */}
         <div style={{ display: 'flex', gap: '0.75rem', marginBottom: '1.5rem', flexWrap: 'wrap' }}>
           <div style={{ flex: 1, minWidth: '220px', position: 'relative' }}>
             <Search size={15} style={{
@@ -87,7 +85,6 @@ export default function HomePage() {
           )}
         </div>
 
-        {/* Filter panel */}
         {showFilters && (
           <div style={{ marginBottom: '1.5rem' }}>
             <FilterPanel
@@ -100,7 +97,6 @@ export default function HomePage() {
           </div>
         )}
 
-        {/* Content */}
         {loading ? (
           <div style={{ textAlign: 'center', padding: '4rem 0', color: 'var(--color-stone)', fontFamily: 'system-ui, sans-serif' }}>
             Chargement des recettes…
@@ -120,7 +116,7 @@ export default function HomePage() {
           <div style={{ textAlign: 'center', padding: '4rem 0' }}>
             <div style={{ fontSize: '2.5rem', marginBottom: '1rem' }}>🍽</div>
             <p style={{ fontFamily: 'system-ui, sans-serif', color: 'var(--color-stone)', marginBottom: '0.5rem' }}>
-              {recipes.length === 0 ? 'Aucune recette pour l\'instant.' : 'Aucune recette ne correspond à ces filtres.'}
+              {recipes.length === 0 ? "Aucune recette pour l'instant." : 'Aucune recette ne correspond à ces filtres.'}
             </p>
             {isAdmin && recipes.length === 0 && (
               <Link to="/ajouter" className="btn-primary" style={{ marginTop: '1rem', display: 'inline-flex' }}>
