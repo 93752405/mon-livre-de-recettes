@@ -3,15 +3,15 @@
   "title": "Élixir gingembre et curcuma",
   "description": "Un élixir matinal scandinave congelé en cubes de glace, à base d'orange, citron, gingembre et curcuma frais. À dissoudre dans de l'eau chaude chaque matin pour booster l'immunité et hydrater la peau.",
   "image": {
-    "cover": ""
+    "cover": "https://93752405.github.io/mon-livre-de-recettes/images/elixir-gingembre-curcuma.PNG"
   },
   "meta": {
     "category": "boisson",
     "protein": "végétalien",
     "season": "hiver",
     "region": "scandinave",
-    "status": "à essayer",
-    "rating": null,
+    "status": "approuvée",
+    "rating": 4,
     "time": {
       "prep_minutes": 15,
       "cook_minutes": 0,
@@ -60,5 +60,5 @@
     "Un bac à glaçons standard donne environ 14 à 16 cubes selon la taille."
   ],
   "created_at": "2026-07-01T10:00:00.000Z",
-  "updated_at": "2026-07-01T15:42:47.053Z"
+  "updated_at": "2026-07-01T15:46:59.858Z"
 }
