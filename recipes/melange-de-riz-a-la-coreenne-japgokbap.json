@@ -1,0 +1,61 @@
+{
+  "id": "melange-de-riz-a-la-coreenne-japgokbap",
+  "title": "Mélange de riz à la coréenne (japgokbap)",
+  "description": "Un mélange de quatre céréales inspiré du japgokbap coréen, alliant riz blanc, riz brun, riz de Camargue et millet pour un accompagnement nutritif et savoureux. Idéal à préparer en grande quantité et à congeler en portions.",
+  "image": {
+    "cover": ""
+  },
+  "meta": {
+    "category": "accompagnement",
+    "protein": "végétalien",
+    "season": "toutes saisons",
+    "region": "coréenne",
+    "status": "à essayer",
+    "rating": null,
+    "time": {
+      "prep_minutes": 5,
+      "cook_minutes": 45,
+      "total_minutes": 50,
+      "difficulty": "meal prep"
+    },
+    "servings": 8,
+    "source": {
+      "type": "autre",
+      "name": "",
+      "url": ""
+    }
+  },
+  "tags": [
+    "végétalien",
+    "accompagnement",
+    "meal prep",
+    "toutes saisons",
+    "coréen",
+    "céréales",
+    "congélation",
+    "santé"
+  ],
+  "ingredients": [
+    "400 ml de riz blanc (40 %)",
+    "300 ml de riz brun (30 %)",
+    "200 ml de riz de Camargue (20 %)",
+    "100 ml de millet (10 %)",
+    "Eau (selon le ratio de cuisson du riz brun, environ 1,5 à 2 fois le volume total de céréales)"
+  ],
+  "instructions": [
+    "Rincer séparément le riz blanc, le riz brun, le riz de Camargue et le millet à l'eau froide jusqu'à ce que l'eau soit claire.",
+    "Mélanger les quatre céréales dans un grand bol ou directement dans le cuiseur à riz.",
+    "Ajouter l'eau selon le ratio recommandé pour le riz brun (environ 1,5 à 2 fois le volume total du mélange), car c'est le grain qui demande le plus d'eau.",
+    "Cuire dans un cuiseur à riz sur le mode 'riz brun', ou dans une casserole à couvert à feu doux pendant 40 à 45 min jusqu'à absorption complète.",
+    "Laisser reposer 10 min hors du feu, couvercle fermé, avant de servir ou de portionner.",
+    "Pour la congélation : diviser en portions individuelles dans des sacs ou contenants hermétiques. Congeler jusqu'à 3 mois. Réchauffer au micro-ondes avec un peu d'eau."
+  ],
+  "notes": [
+    "Le millet étant plus petit, il cuit plus vite que le riz brun — le ratio d'eau du riz brun reste toutefois la référence à suivre.",
+    "Pour un résultat optimal en congélation, portionner le riz encore chaud et sceller rapidement avant de refroidir.",
+    "Varier les proportions selon les préférences : augmenter le riz brun pour plus de fibres, ou le riz blanc pour une texture plus douce.",
+    "Ce mélange peut aussi inclure d'autres céréales comme l'orge ou le quinoa pour varier les saveurs."
+  ],
+  "created_at": "2026-07-01T10:00:00.000Z",
+  "updated_at": "2026-07-01T15:36:30.951Z"
+}
