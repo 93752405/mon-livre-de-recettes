@@ -3,7 +3,7 @@
   "title": "Parfaits Chia Matcha",
   "description": "Des parfaits crémeux et personnalisables à base de graines de chia et de matcha, parfaits pour le déjeuner. Les graines de chia gonflent dans le liquide pour créer une texture de pouding, tandis que le matcha apporte une saveur douce et légèrement végétale ainsi qu'une belle couleur verte.",
   "image": {
-    "cover": ""
+    "cover": "https://93752405.github.io/mon-livre-de-recettes/images/parfaits-chia-matcha.jpg"
   },
   "meta": {
     "category": "déjeuner",
@@ -63,5 +63,5 @@
     "Le yogourt à la vanille peut remplacer le yogourt nature en omettant alors l'extrait de vanille."
   ],
   "created_at": "2026-06-28T00:00:00.000Z",
-  "updated_at": "2026-06-28T00:00:00.000Z"
+  "updated_at": "2026-07-01T15:22:18.525Z"
 }
