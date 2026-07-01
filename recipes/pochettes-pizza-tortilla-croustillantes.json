@@ -3,7 +3,7 @@
   "title": "Pochettes pizza tortilla croustillantes",
   "description": "Des tortillas pliées en cornet, garnies de mozzarella fondue et de pepperoni, scellées à la fourchette et cuites au four ou à la friteuse à air jusqu'à obtenir une croûte dorée et croustillante. À servir avec une sauce marinara chaude pour tremper.",
   "image": {
-    "cover": ""
+    "cover": "https://93752405.github.io/mon-livre-de-recettes/images/pochettes-pizza-tortilla-croustillantes.WEBP"
   },
   "meta": {
     "category": "collation",
@@ -62,5 +62,5 @@
     "Éviter les garnitures trop liquides ou trop saucées — elles ramollissent la tortilla avant qu'elle ait le temps de croustiller."
   ],
   "created_at": "2026-07-01T10:00:00.000Z",
-  "updated_at": "2026-07-01T15:19:54.893Z"
+  "updated_at": "2026-07-01T15:23:16.736Z"
 }
