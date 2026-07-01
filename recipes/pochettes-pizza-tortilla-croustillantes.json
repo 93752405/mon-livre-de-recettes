@@ -10,8 +10,8 @@
     "protein": "porc",
     "season": "toutes saisons",
     "region": "américaine",
-    "status": "à essayer",
-    "rating": null,
+    "status": "approuvée",
+    "rating": 5,
     "time": {
       "prep_minutes": 10,
       "cook_minutes": 12,
@@ -62,5 +62,5 @@
     "Éviter les garnitures trop liquides ou trop saucées — elles ramollissent la tortilla avant qu'elle ait le temps de croustiller."
   ],
   "created_at": "2026-07-01T10:00:00.000Z",
-  "updated_at": "2026-07-01T15:23:16.736Z"
+  "updated_at": "2026-07-01T15:25:38.102Z"
 }
