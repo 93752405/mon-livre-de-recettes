@@ -3,15 +3,15 @@
   "title": "Caldo Verde — Soupe portugaise au chorizo et chou kale",
   "description": "Une soupe traditionnelle portugaise réconfortante à base de pommes de terre, d'ail et de chou kale, enrichie de rondelles de chorizo croustillant. Simple, nourrissante et profondément savoureuse.",
   "image": {
-    "cover": ""
+    "cover": "https://93752405.github.io/mon-livre-de-recettes/images/caldo-verde-soupe-portugaise-chorizo-chou.PNG"
   },
   "meta": {
     "category": "soupe",
     "protein": "porc",
     "season": "hiver",
     "region": "portugaise",
-    "status": "à essayer",
-    "rating": null,
+    "status": "favorite",
+    "rating": 5,
     "time": {
       "prep_minutes": 15,
       "cook_minutes": 35,
@@ -59,5 +59,5 @@
     "Cette soupe se congèle très bien — ajouter le kale seulement au moment de servir pour une meilleure texture."
   ],
   "created_at": "2026-07-01T10:00:00.000Z",
-  "updated_at": "2026-07-01T16:00:34.039Z"
+  "updated_at": "2026-07-01T16:02:04.871Z"
 }
