@@ -1,0 +1,66 @@
+{
+  "id": "pochettes-pizza-tortilla-croustillantes",
+  "title": "Pochettes pizza tortilla croustillantes",
+  "description": "Des tortillas pliées en cornet, garnies de mozzarella fondue et de pepperoni, scellées à la fourchette et cuites au four ou à la friteuse à air jusqu'à obtenir une croûte dorée et croustillante. À servir avec une sauce marinara chaude pour tremper.",
+  "image": {
+    "cover": ""
+  },
+  "meta": {
+    "category": "collation",
+    "protein": "porc",
+    "season": "toutes saisons",
+    "region": "américaine",
+    "status": "à essayer",
+    "rating": null,
+    "time": {
+      "prep_minutes": 10,
+      "cook_minutes": 12,
+      "total_minutes": 22,
+      "difficulty": "rapide"
+    },
+    "servings": 4,
+    "source": {
+      "type": "site web",
+      "name": "The Chef Out West",
+      "url": "https://thechefoutwest.com/crispy-tortilla-pizza-pockets/"
+    }
+  },
+  "tags": [
+    "porc",
+    "collation",
+    "rapide",
+    "toutes saisons",
+    "fromage",
+    "pepperoni",
+    "friteuse à air",
+    "enfants"
+  ],
+  "ingredients": [
+    "4 grandes tortillas de farine",
+    "375 ml (1 ½ tasse) de mozzarella râpée",
+    "180 ml (¾ tasse) de pepperoni coupé en dés",
+    "1 c. à soupe d'eau (pour sceller)",
+    "1 c. à soupe d'huile d'olive",
+    "1 c. à thé d'assaisonnement italien ou d'origan séché",
+    "Sauce marinara ou pizza (pour tremper)"
+  ],
+  "instructions": [
+    "Préchauffer le four à 200 °C (400 °F). Tapisser une plaque de papier parchemin. Pour la friteuse à air, préchauffer également à 200 °C (400 °F).",
+    "Dans un bol, mélanger la mozzarella râpée et le pepperoni en dés. Réserver.",
+    "Couper chaque tortilla en deux. Prendre une moitié et plier un bord droit vers le centre, puis rabattre le bord opposé par-dessus pour former un cornet avec une ouverture en haut.",
+    "Remplir chaque cornet d'une généreuse poignée du mélange mozzarella-pepperoni (environ 3 à 4 c. à soupe par poche).",
+    "Badigeonner légèrement les bords ouverts avec de l'eau. Refermer le rabat restant et appuyer fermement. Sceller tous les bords avec une fourchette en appuyant deux fois sur toute la longueur.",
+    "Disposer les pochettes sur la plaque préparée. Badigeonner le dessus d'huile d'olive et saupoudrer d'assaisonnement italien ou d'origan.",
+    "Cuire au four 10 à 12 minutes jusqu'à ce que les pochettes soient dorées, croustillantes et que le fromage soit complètement fondu. À la friteuse à air : cuire à 200 °C (400 °F) pendant 8 à 10 minutes. Laisser refroidir 2 à 3 minutes avant de servir.",
+    "Servir chaud avec de la sauce marinara ou pizza chaude pour tremper."
+  ],
+  "notes": [
+    "Ne pas trop remplir : environ 3 à 4 c. à soupe de garniture par poche. Trop de garniture empêche de bien sceller et fait fuir le fromage à la cuisson.",
+    "Bien sceller les bords à la fourchette en passant deux fois sur toute l'arête — chaque petit espace non soudé peut s'ouvrir au four.",
+    "La friteuse à air donne un résultat encore plus croustillant que le four. Vérifier la cuisson à 8 minutes.",
+    "Variantes possibles : saucisse cuite émiettée, bacon, jambon et ricotta, ou champignons et épinards sautés avec du fontina. Éviter les garnitures trop humides qui ramolliraient la tortilla de l'intérieur.",
+    "Éviter les garnitures trop liquides ou trop saucées — elles ramollissent la tortilla avant qu'elle ait le temps de croustiller."
+  ],
+  "created_at": "2026-07-01T10:00:00.000Z",
+  "updated_at": "2026-07-01T15:19:54.893Z"
+}
