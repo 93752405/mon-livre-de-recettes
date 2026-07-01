@@ -1,0 +1,63 @@
+{
+  "id": "caldo-verde-soupe-portugaise-chorizo-chou",
+  "title": "Caldo Verde — Soupe portugaise au chorizo et chou kale",
+  "description": "Une soupe traditionnelle portugaise réconfortante à base de pommes de terre, d'ail et de chou kale, enrichie de rondelles de chorizo croustillant. Simple, nourrissante et profondément savoureuse.",
+  "image": {
+    "cover": ""
+  },
+  "meta": {
+    "category": "soupe",
+    "protein": "porc",
+    "season": "hiver",
+    "region": "portugaise",
+    "status": "à essayer",
+    "rating": null,
+    "time": {
+      "prep_minutes": 15,
+      "cook_minutes": 35,
+      "total_minutes": 50,
+      "difficulty": "standard"
+    },
+    "servings": 4,
+    "source": {
+      "type": "Instagram",
+      "name": "jujumaoeats",
+      "url": ""
+    }
+  },
+  "tags": [
+    "porc",
+    "soupe",
+    "standard",
+    "hiver",
+    "portugais",
+    "comfort food",
+    "chorizo",
+    "kale"
+  ],
+  "ingredients": [
+    "3 tranches épaisses de saucisse chorizo, coupées en rondelles",
+    "2 pommes de terre, coupées en morceaux",
+    "1 oignon, haché",
+    "8 gousses d'ail, tranchées",
+    "Bouillon de poulet, en quantité suffisante (environ 1 à 1,5 L)",
+    "1 bouquet de chou kale, grossièrement haché",
+    "Poivre noir, au goût"
+  ],
+  "instructions": [
+    "Trancher le chorizo en petites rondelles et les faire revenir dans une poêle bien chaude sans ajout de matière grasse. Laisser le gras du chorizo se libérer et attendre que les rondelles soient bien croustillantes. Retirer et réserver.",
+    "Dans une grande casserole, verser l'huile rendue par le chorizo. Ajouter l'oignon haché, les pommes de terre et l'ail tranché. Faire revenir à feu moyen jusqu'à ce que les légumes soient légèrement ramollis.",
+    "Couvrir avec le bouillon de poulet et porter à ébullition. Laisser mijoter jusqu'à ce que les pommes de terre soient bien tendres.",
+    "Mixer la soupe (partiellement ou entièrement) pour obtenir un bouillon épais et onctueux.",
+    "Remettre les rondelles de chorizo dans la soupe et ajouter le chou kale grossièrement haché. Laisser chauffer 2 à 3 min.",
+    "Poivrer au goût et servir bien chaud."
+  ],
+  "notes": [
+    "Mixer seulement la moitié de la soupe donne une texture plus rustique avec des morceaux de pommes de terre.",
+    "Le chou kale peut être remplacé par du chou frisé ou des feuilles de navet pour une version plus traditionnelle.",
+    "Pour une version plus légère, égoutter une partie du gras rendu avant de faire revenir les légumes.",
+    "Cette soupe se congèle très bien — ajouter le kale seulement au moment de servir pour une meilleure texture."
+  ],
+  "created_at": "2026-07-01T10:00:00.000Z",
+  "updated_at": "2026-07-01T16:00:34.039Z"
+}
