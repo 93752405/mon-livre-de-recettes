@@ -3,15 +3,15 @@
   "title": "Mélange de riz à la coréenne (japgokbap)",
   "description": "Un mélange de quatre céréales inspiré du japgokbap coréen, alliant riz blanc, riz brun, riz de Camargue et millet pour un accompagnement nutritif et savoureux. Idéal à préparer en grande quantité et à congeler en portions.",
   "image": {
-    "cover": ""
+    "cover": "https://93752405.github.io/mon-livre-de-recettes/images/melange-de-riz-a-la-coreenne-japgokbap.jpg"
   },
   "meta": {
     "category": "accompagnement",
     "protein": "végétalien",
     "season": "toutes saisons",
     "region": "coréenne",
-    "status": "à essayer",
-    "rating": null,
+    "status": "approuvée",
+    "rating": 5,
     "time": {
       "prep_minutes": 5,
       "cook_minutes": 45,
@@ -20,7 +20,7 @@
     },
     "servings": 8,
     "source": {
-      "type": "autre",
+      "type": "Instagram",
       "name": "",
       "url": ""
     }
@@ -57,5 +57,5 @@
     "Ce mélange peut aussi inclure d'autres céréales comme l'orge ou le quinoa pour varier les saveurs."
   ],
   "created_at": "2026-07-01T10:00:00.000Z",
-  "updated_at": "2026-07-01T15:36:30.951Z"
+  "updated_at": "2026-07-01T15:38:48.668Z"
 }
