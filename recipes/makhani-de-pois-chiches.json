@@ -3,15 +3,15 @@
   "title": "Makhani de pois chiches",
   "description": "Un plat indien épicé et crémeux à base de pois chiches, sublimé par une salade rafraîchissante à la lime et accompagné de naans grillés au beurre à l'ail.",
   "image": {
-    "cover": ""
+    "cover": "https://93752405.github.io/mon-livre-de-recettes/images/makhani-de-pois-chiches.webp"
   },
   "meta": {
     "category": "souper",
     "protein": "végétarien",
     "season": "automne",
     "region": "indienne",
-    "status": "à essayer",
-    "rating": null,
+    "status": "favorite",
+    "rating": 5,
     "time": {
       "prep_minutes": 15,
       "cook_minutes": 20,
@@ -63,5 +63,5 @@
     "Pour une version végétalienne, remplacer la crème par de la crème de coco et le beurre par de la margarine végétale."
   ],
   "created_at": "2026-06-28T10:00:00.000Z",
-  "updated_at": "2026-06-28T22:07:26.653Z"
+  "updated_at": "2026-07-01T15:48:29.907Z"
 }
