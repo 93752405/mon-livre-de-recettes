@@ -3,15 +3,15 @@
   "title": "Poulet soja sucré à l'ail",
   "description": "Un poulet à la poêle d'inspiration coréenne, nappé d'une sauce savoureuse et sucrée au soja, à l'ail et à l'huile de sésame. Simple, rapide et parfait servi avec un bol de riz.",
   "image": {
-    "cover": ""
+    "cover": "https://93752405.github.io/mon-livre-de-recettes/images/poulet-soja-sucre-ail-coreeen.PNG"
   },
   "meta": {
     "category": "souper",
     "protein": "poulet",
     "season": "toutes saisons",
     "region": "coréenne",
-    "status": "à essayer",
-    "rating": null,
+    "status": "favorite",
+    "rating": 5,
     "time": {
       "prep_minutes": 10,
       "cook_minutes": 20,
@@ -66,5 +66,5 @@
     "Se déguste idéalement avec un bol de riz blanc et une bière froide."
   ],
   "created_at": "2026-07-01T10:00:00.000Z",
-  "updated_at": "2026-07-01T15:54:17.894Z"
+  "updated_at": "2026-07-01T15:57:03.457Z"
 }
