@@ -1,0 +1,85 @@
+{
+  "id": "rouleaux-ete-poulet-avocat-papier-riz",
+  "title": "Rouleaux d'été au poulet, avocat et légumes croquants",
+  "description": "Des rouleaux d'été légers et frais inspirés de la cuisine vietnamienne, garnis de poulet mariné cuit au four, d'avocat, de légumes croquants et de coriandre, avec une sauce sriracha épicée en option.",
+  "image": {
+    "cover": ""
+  },
+  "meta": {
+    "category": "entrée",
+    "protein": "poulet",
+    "season": "été",
+    "region": "vietnamienne",
+    "status": "à essayer",
+    "rating": null,
+    "time": {
+      "prep_minutes": 20,
+      "cook_minutes": 32,
+      "total_minutes": 52,
+      "difficulty": "standard"
+    },
+    "servings": 4,
+    "source": {
+      "type": "Instagram",
+      "name": "shredhappens",
+      "url": ""
+    }
+  },
+  "tags": [
+    "poulet",
+    "entrée",
+    "standard",
+    "été",
+    "vietnamien",
+    "léger",
+    "santé",
+    "sans gluten"
+  ],
+  "ingredients": [
+    "— Poulet mariné —",
+    "340 g (3/4 lb) de hauts de cuisses de poulet désossés sans peau",
+    "1/2 c. à café d'huile d'avocat",
+    "1 c. à soupe de vinaigre de riz",
+    "1 c. à soupe de sauce soja",
+    "1 c. à soupe de poudre d'ail",
+    "1 c. à soupe de poudre d'oignon",
+    "1/2 c. à soupe de persil séché ou de coriandre séchée",
+    "1/4 c. à café de poivre de Cayenne",
+    "Sel et poivre, au goût",
+    "— Rouleaux —",
+    "8 feuilles de papier de riz",
+    "Une grande poignée de roquette ou de laitue gem finement tranchée",
+    "1 grand poivron rouge, finement tranché",
+    "2 concombres persans, finement tranchés",
+    "1/2 gros oignon rouge, finement tranché",
+    "1 grand avocat, finement tranché",
+    "Une grande poignée de coriandre fraîche",
+    "— Sauce sriracha épicée (facultatif) —",
+    "3 c. à soupe de mayonnaise",
+    "1 c. à café d'huile de sésame",
+    "1 c. à soupe de vinaigre de riz",
+    "1 c. à soupe de sauce soja",
+    "2,5 c. à soupe de sauce sriracha",
+    "1 c. à café bombée de miel",
+    "Sel et poivre, au goût"
+  ],
+  "instructions": [
+    "Mélanger tous les ingrédients de la marinade avec le poulet. Bien enrober. Cuire au four à 400 °F (200 °C) pendant 32 minutes, ou à la friteuse à air à 400 °F pendant 22 minutes. Laisser reposer, puis trancher ou effilocher.",
+    "Pendant ce temps, préparer tous les légumes : trancher finement le poivron, les concombres, l'oignon rouge et l'avocat. Réserver.",
+    "Préparer la sauce sriracha si désiré : mélanger tous les ingrédients dans un petit bol jusqu'à homogénéité. Réserver.",
+    "Tremper une feuille de papier de riz rapidement dans de l'eau tiède (juste une seconde) et la déposer à plat sur une surface propre.",
+    "Déposer la roquette au centre, puis les légumes en laissant de l'espace sur les bords.",
+    "Replier le bas de la feuille vers le haut en serrant bien pour maintenir les légumes en place.",
+    "Ajouter 55 à 85 g (2 à 3 oz) de poulet, 2 à 3 tranches d'avocat et de la coriandre fraîche.",
+    "Replier les côtés vers l'intérieur, puis rouler serré en style mini-burrito. Répéter pour les 8 rouleaux.",
+    "Servir immédiatement avec la sauce sriracha épicée en accompagnement."
+  ],
+  "notes": [
+    "Ne pas trop tremper le papier de riz — une seconde suffit, il continue de ramollir une fois posé à plat.",
+    "Le poulet peut être remplacé par des crevettes, du tofu ou même du steak pour varier les protéines.",
+    "Les rouleaux sont meilleurs consommés immédiatement — le papier de riz durcit s'ils attendent trop longtemps.",
+    "Sans la sauce, chaque rouleau est d'environ 90 calories selon l'auteure de la recette."
+  ],
+  "created_at": "2026-09-06T10:00:00.000Z",
+  "updated_at": "2026-09-06T20:44:24.146Z"
+}
