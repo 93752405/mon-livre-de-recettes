@@ -1,0 +1,88 @@
+{
+  "id": "Poulet-katsu-curry-maison",
+  "title": "Poulet katsu curry maison",
+  "description": "Un chicken katsu curry japonais fait maison, sans cube prêt à l'emploi. Une sauce curry parfumée aux légumes mijotés et aux épices, accompagnée d'escalopes de poulet panées et dorées, servies sur un lit de riz avec un œuf mollet.",
+  "image": {
+    "cover": ""
+  },
+  "meta": {
+    "category": "souper",
+    "protein": "poulet",
+    "season": "toutes saisons",
+    "region": "japonaise",
+    "status": "à essayer",
+    "rating": null,
+    "time": {
+      "prep_minutes": 20,
+      "cook_minutes": 35,
+      "total_minutes": 55,
+      "difficulty": "standard"
+    },
+    "servings": 4,
+    "source": {
+      "type": "Instagram",
+      "name": "bint.medellin",
+      "url": ""
+    }
+  },
+  "tags": [
+    "poulet",
+    "souper",
+    "standard",
+    "toutes saisons",
+    "japonais",
+    "curry",
+    "pané",
+    "comfort food"
+  ],
+  "ingredients": [
+    "— Sauce curry —",
+    "4 petites carottes ou 2 grosses, coupées en morceaux moyens",
+    "3 petites pommes de terre, coupées en morceaux",
+    "1 oignon, finement émincé",
+    "3 c. à café de pâte d'ail et de gingembre",
+    "1 c. à soupe de farine",
+    "400 g de tomates broyées",
+    "2 c. à soupe de sauce soja salée",
+    "2 c. à soupe de sauce aux huîtres",
+    "Un peu de chocolat noir (facultatif)",
+    "Eau, en quantité suffisante",
+    "— Épices —",
+    "1 c. à café de garam masala",
+    "1 c. à café de curcuma",
+    "1 c. à café de cumin",
+    "1 c. à café de coriandre moulue",
+    "1 c. à café de paprika",
+    "1/2 c. à café de piment en poudre",
+    "Sel et poivre, au goût",
+    "— Poulet pané —",
+    "4 escalopes de poulet",
+    "2 œufs",
+    "Chapelure panko, en quantité suffisante",
+    "Paprika, sel et poivre",
+    "Huile pour la friture",
+    "— Pour servir —",
+    "Riz cuit",
+    "4 œufs mollets (jaune légèrement coulant)"
+  ],
+  "instructions": [
+    "Couper les carottes et les pommes de terre en morceaux moyens. Émincer finement l'oignon.",
+    "Dans un faitout, faire revenir l'oignon avec la pâte d'ail et de gingembre à feu moyen. Laisser légèrement caraméliser pour bien développer les saveurs.",
+    "Ajouter les légumes et mélanger. Assaisonner avec toutes les épices (garam masala, curcuma, cumin, coriandre, paprika, piment, sel et poivre). Bien mélanger et laisser les légumes griller quelques instants pour qu'ils s'imprègnent des épices.",
+    "Ajouter la farine, mélanger, puis verser suffisamment d'eau pour couvrir les légumes.",
+    "Ajouter les tomates broyées, la sauce soja et la sauce aux huîtres. Mélanger.",
+    "Incorporer un peu de chocolat noir — touche secrète japonaise qui vient légèrement sucrer et enlever l'acidité de la tomate.",
+    "Couvrir et laisser mijoter à feu moyen-doux environ 20 minutes, jusqu'à ce que les légumes soient bien tendres et la sauce épaisse.",
+    "Pendant ce temps, préparer le poulet : aplatir légèrement les escalopes, puis saler et poivrer des deux côtés.",
+    "Dans une assiette creuse, battre les 2 œufs. Dans une autre, mélanger la chapelure panko avec un peu de paprika. Tremper chaque escalope dans l'œuf, puis dans la chapelure en appuyant bien pour faire adhérer.",
+    "Dans une grande poêle avec de l'huile chaude, faire frire les escalopes à feu moyen-doux, 5 à 7 minutes de chaque côté, jusqu'à ce qu'elles soient bien dorées et cuites à cœur.",
+    "Servir le riz dans un bol, napper généreusement de sauce curry chaude, déposer le poulet tranché en biais et ajouter un œuf mollet au jaune légèrement coulant sur le dessus."
+  ],
+  "notes": [
+    "Le chocolat noir dans la sauce est une astuce traditionnelle japonaise : il arrondit les saveurs, réduit l'acidité de la tomate et ajoute une légère profondeur.",
+    "La sauce doit former de petites bulles en surface et être bien nappante quand elle est prête.",
+    "Pour un jaune encore coulant, cuire l'œuf mollet 6 à 7 minutes dans l'eau bouillante, puis plonger immédiatement dans l'eau froide avant d'écaler."
+  ],
+  "created_at": "2026-09-06T10:00:00.000Z",
+  "updated_at": "2026-09-06T18:31:34.902Z"
+}
