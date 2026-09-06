@@ -1,0 +1,66 @@
+{
+  "id": "bol-tofu-soboro-sauce-gochujang-coreeen",
+  "title": "Bol de tofu soboro à la sauce gochujang",
+  "description": "Un bol coréen rapide et savoureux où le tofu ferme est émietté et sauté avec une sauce épicée au gochujang et à l'ail. Prêt en 10 minutes, servi sur du riz ou enroulé dans des feuilles de chou napa.",
+  "image": {
+    "cover": ""
+  },
+  "meta": {
+    "category": "souper",
+    "protein": "tofu",
+    "season": "toutes saisons",
+    "region": "coréenne",
+    "status": "à essayer",
+    "rating": null,
+    "time": {
+      "prep_minutes": 5,
+      "cook_minutes": 10,
+      "total_minutes": 15,
+      "difficulty": "rapide"
+    },
+    "servings": 2,
+    "source": {
+      "type": "Instagram",
+      "name": "yooinoz",
+      "url": ""
+    }
+  },
+  "tags": [
+    "tofu",
+    "souper",
+    "rapide",
+    "toutes saisons",
+    "coréen",
+    "épicé",
+    "végétarien",
+    "gochujang"
+  ],
+  "ingredients": [
+    "300 g de tofu ferme",
+    "Chou napa ou feuilles de laitue (pour les wraps)",
+    "1/4 d'oignon, haché",
+    "1 tige d'oignon vert, émincée",
+    "1 piment frais (facultatif, pour les amateurs de piquant)",
+    "— Sauce —",
+    "1,5 c. à soupe de sauce soja",
+    "1,5 c. à soupe de gochujang",
+    "1 c. à café d'huile de perilla (ou huile de sésame)",
+    "Un peu de sucre",
+    "Une pincée de poivre noir",
+    "1 c. à café d'ail haché"
+  ],
+  "instructions": [
+    "Émietter le tofu ferme directement dans une poêle chaude et faire cuire à feu moyen-doux jusqu'à ce que la majorité de l'humidité soit évaporée.",
+    "Ajouter l'oignon et l'oignon vert hachés. Faire revenir jusqu'à ce qu'ils soient ramollis.",
+    "Ajouter tous les ingrédients de la sauce et mélanger à feu vif jusqu'à ce que tout soit bien enrobé et combiné.",
+    "Servir sur un bol de riz, ou enrouler avec du riz dans des feuilles de chou napa ou de laitue en mode ssam."
+  ],
+  "notes": [
+    "L'huile de perilla apporte une saveur herbeuse typique de la cuisine coréenne — l'huile de sésame est un bon substitut.",
+    "Cette recette est inspirée de la version de la comédienne coréenne Lee Young Ja.",
+    "Pour un ssam : déposer une cuillerée de riz et de tofu soboro dans une feuille de chou napa, rouler et manger en une bouchée.",
+    "Se prépare en 10 minutes avec des ingrédients du frigo — idéal pour un souper express en semaine."
+  ],
+  "created_at": "2026-09-06T10:00:00.000Z",
+  "updated_at": "2026-09-06T20:16:52.678Z"
+}
