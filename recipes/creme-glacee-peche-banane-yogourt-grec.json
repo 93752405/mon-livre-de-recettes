@@ -3,7 +3,7 @@
   "title": "Crème glacée santé pêche et banane au yogourt grec",
   "description": "Une crème glacée maison ultra simple et sans culpabilité, préparée au robot culinaire avec des pêches et une banane congelées, du yogourt grec et un filet de sirop d'érable. Onctueuse, naturellement sucrée et prête en 5 minutes.",
   "image": {
-    "cover": ""
+    "cover": "https://93752405.github.io/mon-livre-de-recettes/images/creme-glacee-peche-banane-yogourt-grec.jpeg"
   },
   "meta": {
     "category": "dessert",
@@ -53,5 +53,5 @@
     "Peut se congeler en portions individuelles dans des moules à popsicle pour un format pratique."
   ],
   "created_at": "2026-09-06T10:00:00.000Z",
-  "updated_at": "2026-09-06T20:29:35.325Z"
+  "updated_at": "2026-09-06T20:39:06.899Z"
 }
