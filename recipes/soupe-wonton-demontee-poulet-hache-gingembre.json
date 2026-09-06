@@ -1,9 +1,9 @@
 {
   "id": "soupe-wonton-demontee-poulet-hache-gingembre",
-  "title": "Soupe wonton démontée au poulet haché et gingembre",
+  "title": "Soupe wonton déconstruite au poulet haché et gingembre",
   "description": "Une soupe wonton simplifiée où les feuilles de wonton sont coupées en lanières et cuites directement dans le bouillon avec du poulet haché, du gingembre frais et des oignons verts. Rapide, réconfortante et pleine de saveurs.",
   "image": {
-    "cover": ""
+    "cover": "https://93752405.github.io/mon-livre-de-recettes/images/soupe-wonton-demontee-poulet-hache-gingembre.png"
   },
   "meta": {
     "category": "soupe",
@@ -20,7 +20,7 @@
     },
     "servings": 4,
     "source": {
-      "type": "autre",
+      "type": "Instagram",
       "name": "",
       "url": ""
     }
@@ -62,5 +62,5 @@
     "Pour plus de profondeur, remplacer une partie de l'eau par du bouillon de poulet maison ou du commerce."
   ],
   "created_at": "2026-09-06T10:00:00.000Z",
-  "updated_at": "2026-09-06T19:52:33.488Z"
+  "updated_at": "2026-09-06T19:57:15.409Z"
 }
