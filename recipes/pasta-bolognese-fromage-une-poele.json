@@ -3,7 +3,7 @@
   "title": "Pasta bolognaise fondante au fromage (une seule poêle)",
   "description": "Un boeuf bolognaise rapide et réconfortant cuit dans une seule poêle avec les pâtes directement dans la sauce, recouvert d'une couche de mozzarella fondante. Goût de pasta au four, prêt en 30 minutes.",
   "image": {
-    "cover": ""
+    "cover": "https://93752405.github.io/mon-livre-de-recettes/images/pasta-bolognese-fromage-une-poele.jpeg"
   },
   "meta": {
     "category": "souper",
@@ -61,5 +61,5 @@
     "Un filet d'huile d'olive et des flocons de piment fort en finition rehaussent le plat."
   ],
   "created_at": "2026-09-06T10:00:00.000Z",
-  "updated_at": "2026-09-06T20:52:18.225Z"
+  "updated_at": "2026-09-06T20:56:23.547Z"
 }
