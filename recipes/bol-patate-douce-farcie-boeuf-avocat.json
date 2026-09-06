@@ -1,0 +1,66 @@
+{
+  "id": "bol-patate-douce-farcie-boeuf-avocat",
+  "title": "Bol de patate douce farcie au bœuf haché et avocat",
+  "description": "Une patate douce rôtie écrasée et garnie de bœuf haché, d'une petite salade fraîche de tomates, jalapeño et oignon rouge au citron, de cheddar râpé et de tranches d'avocat. Un repas complet et nourrissant en un seul bol.",
+  "image": {
+    "cover": ""
+  },
+  "meta": {
+    "category": "souper",
+    "protein": "boeuf",
+    "season": "toutes saisons",
+    "region": "",
+    "status": "à essayer",
+    "rating": null,
+    "time": {
+      "prep_minutes": 10,
+      "cook_minutes": 35,
+      "total_minutes": 45,
+      "difficulty": "rapide"
+    },
+    "servings": 1,
+    "source": {
+      "type": "autre",
+      "name": "",
+      "url": ""
+    }
+  },
+  "tags": [
+    "boeuf",
+    "souper",
+    "rapide",
+    "toutes saisons",
+    "patate douce",
+    "avocat",
+    "sans gluten",
+    "meal prep"
+  ],
+  "ingredients": [
+    "1 patate douce",
+    "125 g de bœuf haché (environ 1/4 de 500 g)",
+    "Fromage cheddar râpé, au goût",
+    "1/2 avocat, tranché",
+    "Huile d'olive",
+    "Sel et poivre",
+    "— Petite salade fraîche —",
+    "Quelques tomates cerises, tranchées finement",
+    "1/4 de jalapeño, tranché finement",
+    "Un peu d'oignon rouge, tranché finement",
+    "Un filet de jus de citron",
+    "Un filet d'huile d'olive"
+  ],
+  "instructions": [
+    "Préchauffer le four à 350 °F (175 °C). Couper la patate douce en deux sur la longueur, badigeonner la chair d'huile d'olive, saler et poivrer. Déposer face coupée vers le bas sur une plaque. Enfourner 35 minutes jusqu'à ce qu'elle soit bien tendre.",
+    "Pendant ce temps, faire cuire le bœuf haché à la poêle à feu moyen jusqu'à ce qu'il soit bien doré. Assaisonner de sel et poivre. Réserver.",
+    "Préparer la petite salade : mélanger les tomates, le jalapeño et l'oignon rouge tranchés finement avec un filet de jus de citron et un filet d'huile d'olive. Réserver.",
+    "Sortir la patate douce du four. L'écraser légèrement avec une fourchette pour ramollir la chair.",
+    "Garnir de cheddar râpé, puis du bœuf haché chaud, de la petite salade fraîche et terminer avec les tranches d'avocat sur le dessus. Servir immédiatement."
+  ],
+  "notes": [
+    "La recette est facilement multipliable : prévoir une patate douce et environ 125 g de bœuf haché par portion.",
+    "La patate douce peut être rôtie à l'avance et réchauffée au micro-ondes pour un repas express en semaine.",
+    "Varier la garniture selon les goûts : crème sure, salsa, ou coriandre fraîche s'intègrent très bien."
+  ],
+  "created_at": "2026-09-06T10:00:00.000Z",
+  "updated_at": "2026-09-06T20:13:15.188Z"
+}
