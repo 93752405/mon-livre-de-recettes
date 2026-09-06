@@ -3,7 +3,7 @@
   "title": "Gnocchis crémeux à la citrouille et parmesan",
   "description": "Des gnocchis enrobés d'une sauce onctueuse à la crème, à la purée de citrouille et au parmesan, parfumée aux épices douces. Un plat réconfortant parfait pour accueillir l'automne.",
   "image": {
-    "cover": ""
+    "cover": "https://93752405.github.io/mon-livre-de-recettes/images/gnocchis-creme-citrouille-parmesan.PNG"
   },
   "meta": {
     "category": "souper",
@@ -66,5 +66,5 @@
     "Les flocons de piment fort en garniture apportent un beau contraste avec la douceur de la citrouille."
   ],
   "created_at": "2026-09-06T10:00:00.000Z",
-  "updated_at": "2026-09-06T18:40:04.410Z"
+  "updated_at": "2026-09-06T18:40:58.410Z"
 }
