@@ -3,7 +3,7 @@
   "title": "Sandwich poulet croustillant sauce citron et ail (air fryer)",
   "description": "Un sandwich généreux sur ciabatta grillée avec un haut de cuisse de poulet pané aux cornflakes et cuit à la friteuse à air, nappé d'une sauce citronnée à l'ail, au miel et aux herbes. Croustillant, juteux et plein de saveurs.",
   "image": {
-    "cover": ""
+    "cover": "https://93752405.github.io/mon-livre-de-recettes/images/sandwich-poulet-croustillant-sauce-citron-ail.jpeg"
   },
   "meta": {
     "category": "souper",
@@ -83,5 +83,5 @@
     "Les cornflakes donnent une panure particulièrement croustillante et légère, supérieure à la chapelure classique pour la cuisson à l'air."
   ],
   "created_at": "2026-09-06T10:00:00.000Z",
-  "updated_at": "2026-09-06T20:21:35.321Z"
+  "updated_at": "2026-09-06T20:26:35.445Z"
 }
