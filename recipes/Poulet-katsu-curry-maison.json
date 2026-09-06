@@ -3,7 +3,7 @@
   "title": "Poulet katsu curry maison",
   "description": "Un chicken katsu curry japonais fait maison, sans cube prêt à l'emploi. Une sauce curry parfumée aux légumes mijotés et aux épices, accompagnée d'escalopes de poulet panées et dorées, servies sur un lit de riz avec un œuf mollet.",
   "image": {
-    "cover": "https://93752405.github.io/mon-livre-de-recettes/images/Poulet-katsu-curry-maison.PNG"
+    "cover": "https://93752405.github.io/mon-livre-de-recettes/images/Poulet-katsu-curry-maison.jpeg"
   },
   "meta": {
     "category": "souper",
@@ -84,5 +84,5 @@
     "Pour un jaune encore coulant, cuire l'œuf mollet 6 à 7 minutes dans l'eau bouillante, puis plonger immédiatement dans l'eau froide avant d'écaler."
   ],
   "created_at": "2026-09-06T10:00:00.000Z",
-  "updated_at": "2026-09-06T18:33:18.286Z"
+  "updated_at": "2026-09-06T19:02:25.367Z"
 }
