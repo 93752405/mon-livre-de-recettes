@@ -3,7 +3,7 @@
   "title": "Bol de tofu soboro à la sauce gochujang",
   "description": "Un bol coréen rapide et savoureux où le tofu ferme est émietté et sauté avec une sauce épicée au gochujang et à l'ail. Prêt en 10 minutes, servi sur du riz ou enroulé dans des feuilles de chou napa.",
   "image": {
-    "cover": ""
+    "cover": "https://93752405.github.io/mon-livre-de-recettes/images/bol-tofu-soboro-sauce-gochujang-coreeen.jpeg"
   },
   "meta": {
     "category": "souper",
@@ -62,5 +62,5 @@
     "Se prépare en 10 minutes avec des ingrédients du frigo — idéal pour un souper express en semaine."
   ],
   "created_at": "2026-09-06T10:00:00.000Z",
-  "updated_at": "2026-09-06T20:16:52.678Z"
+  "updated_at": "2026-09-06T20:18:07.513Z"
 }
