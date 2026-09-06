@@ -3,7 +3,7 @@
   "title": "Quesadillas haricots noirs et patate douce",
   "description": "Des quesadillas végétariennes rapides et nourrissantes, garnies d'un mélange de haricots noirs, de salsa et de patate douce rôtie, dorées à la poêle et servies avec jalapeño, oignon et persil.",
   "image": {
-    "cover": ""
+    "cover": "https://93752405.github.io/mon-livre-de-recettes/images/quesadillas-haricots-noirs-patate-douce.png"
   },
   "meta": {
     "category": "souper",
@@ -62,5 +62,5 @@
     "Ajuster la quantité de salsa selon la texture souhaitée : moins de salsa pour une garniture plus ferme et facile à manipuler."
   ],
   "created_at": "2026-09-06T10:00:00.000Z",
-  "updated_at": "2026-09-06T18:45:17.323Z"
+  "updated_at": "2026-09-06T19:21:10.519Z"
 }
