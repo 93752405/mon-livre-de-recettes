@@ -1,0 +1,62 @@
+{
+  "id": "gnocchis-boeuf-ail-sauce-gochujang-creme",
+  "title": "Gnocchis au bœuf à l'ail et sauce gochujang crémeuse",
+  "description": "Des gnocchis de pommes de terre enrobés d'une sauce crémeuse au gochujang et au parmesan, avec du bœuf haché croustillant à l'ail. Un plat réconfortant et épicé prêt en 25 minutes.",
+  "image": {
+    "cover": ""
+  },
+  "meta": {
+    "category": "souper",
+    "protein": "boeuf",
+    "season": "toutes saisons",
+    "region": "coréenne",
+    "status": "à essayer",
+    "rating": null,
+    "time": {
+      "prep_minutes": 10,
+      "cook_minutes": 15,
+      "total_minutes": 25,
+      "difficulty": "rapide"
+    },
+    "servings": 2,
+    "source": {
+      "type": "Instagram",
+      "name": "eatinghealthyfeed",
+      "url": ""
+    }
+  },
+  "tags": [
+    "boeuf",
+    "souper",
+    "rapide",
+    "toutes saisons",
+    "gochujang",
+    "pâtes",
+    "crémeux",
+    "comfort food"
+  ],
+  "ingredients": [
+    "450 g (1 lb) de gnocchis de pommes de terre",
+    "225 g (1/2 lb) de bœuf haché",
+    "2 c. à soupe de gochujang",
+    "125 ml (1/2 tasse) de crème 35 % ou crème légère",
+    "60 ml (1/4 tasse) de parmesan râpé",
+    "3 gousses d'ail, hachées",
+    "1 c. à café de sauce soja",
+    "Oignons verts émincés et flocons de piment fort, pour garnir"
+  ],
+  "instructions": [
+    "Dans une grande poêle à feu moyen-vif, faire revenir le bœuf haché avec l'ail jusqu'à ce qu'il soit bien doré et croustillant. Mettre une portion de côté pour la garniture finale.",
+    "Incorporer le gochujang et la sauce soja dans la poêle avec le bœuf. Laisser cuire 1 minute pour que la pâte s'intensifie et se caramélise légèrement.",
+    "Ajouter la crème et le parmesan. Mélanger jusqu'à obtenir une sauce lisse et brillante.",
+    "Pendant ce temps, faire bouillir les gnocchis dans une casserole d'eau salée jusqu'à ce qu'ils remontent à la surface. Égoutter immédiatement et les incorporer directement dans la sauce.",
+    "Mélanger délicatement pour bien enrober tous les gnocchis. Servir garni du bœuf croustillant réservé, d'oignons verts émincés et d'une pincée de flocons de piment fort."
+  ],
+  "notes": [
+    "Mettre une portion de bœuf croustillant de côté avant d'ajouter la sauce — ce contraste de textures croquant contre crémeux est ce qui rend le plat exceptionnel.",
+    "Ne pas trop cuire les gnocchis : les retirer dès qu'ils flottent, une minute de trop les rend mous et gommeux dans la sauce.",
+    "Le gochujang perd son côté âcre et développe une profondeur sucrée-épicée quand il est saisi quelques instants dans la poêle avant d'ajouter la crème."
+  ],
+  "created_at": "2026-09-06T10:00:00.000Z",
+  "updated_at": "2026-09-06T20:59:38.173Z"
+}
