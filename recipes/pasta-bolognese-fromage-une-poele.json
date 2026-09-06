@@ -1,0 +1,65 @@
+{
+  "id": "pasta-bolognese-fromage-une-poele",
+  "title": "Pasta bolognaise fondante au fromage (une seule poêle)",
+  "description": "Un boeuf bolognaise rapide et réconfortant cuit dans une seule poêle avec les pâtes directement dans la sauce, recouvert d'une couche de mozzarella fondante. Goût de pasta au four, prêt en 30 minutes.",
+  "image": {
+    "cover": ""
+  },
+  "meta": {
+    "category": "souper",
+    "protein": "boeuf",
+    "season": "toutes saisons",
+    "region": "italienne",
+    "status": "à essayer",
+    "rating": null,
+    "time": {
+      "prep_minutes": 10,
+      "cook_minutes": 20,
+      "total_minutes": 30,
+      "difficulty": "rapide"
+    },
+    "servings": 2,
+    "source": {
+      "type": "Instagram",
+      "name": "eatinghealthyfeed",
+      "url": ""
+    }
+  },
+  "tags": [
+    "boeuf",
+    "souper",
+    "rapide",
+    "toutes saisons",
+    "pâtes",
+    "comfort food",
+    "une poêle",
+    "fromage"
+  ],
+  "ingredients": [
+    "225 g (8 oz) de pennes",
+    "225 g (1/2 lb) de bœuf haché",
+    "250 ml (1 tasse) de sauce marinara ou de tomates broyées",
+    "250 ml (1 tasse) de mozzarella râpée",
+    "1/2 oignon, coupé en dés",
+    "3 gousses d'ail, hachées",
+    "500 ml (2 tasses) de bouillon de bœuf ou d'eau",
+    "1 c. à café d'assaisonnement italien",
+    "Sel et poivre, au goût",
+    "Persil frais, pour servir"
+  ],
+  "instructions": [
+    "Dans une grande poêle à feu moyen-vif, faire revenir le bœuf haché avec l'oignon et l'ail jusqu'à ce que la viande soit bien dorée et l'oignon ramolli.",
+    "Ajouter la sauce marinara, l'assaisonnement italien, le sel et le poivre. Laisser mijoter quelques minutes pour développer les saveurs.",
+    "Ajouter les pennes sèches et le bouillon. Porter à ébullition, puis réduire à feu moyen. Couvrir et laisser mijoter en remuant de temps en temps, jusqu'à ce que les pâtes soient tendres et que la majorité du liquide soit absorbée.",
+    "Retirer du feu. Répartir la mozzarella râpée sur le dessus et couvrir. Laisser le fromage fondre à la chaleur résiduelle pour obtenir une couche filante et dorée sans brûler le fond.",
+    "Terminer avec du persil frais haché et servir directement dans la poêle."
+  ],
+  "notes": [
+    "Cuire les pâtes directement dans la sauce leur permet d'absorber toutes les saveurs — ne pas les précuire.",
+    "Laisser fondre le fromage hors du feu avec le couvercle : la vapeur crée une couche parfaitement fondante sans brûler.",
+    "Ajouter un peu plus de bouillon si les pâtes absorbent trop vite avant d'être cuites.",
+    "Un filet d'huile d'olive et des flocons de piment fort en finition rehaussent le plat."
+  ],
+  "created_at": "2026-09-06T10:00:00.000Z",
+  "updated_at": "2026-09-06T20:52:18.225Z"
+}
