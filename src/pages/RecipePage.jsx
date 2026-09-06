@@ -1,5 +1,5 @@
 import { useParams, useNavigate, Link } from 'react-router-dom'
-import { ArrowLeft, Clock, Users, Edit, Trash2, ExternalLink, Heart } from 'lucide-react'
+import { ArrowLeft, Clock, Users, Edit, Trash2, ExternalLink, Heart, FileDown } from 'lucide-react'
 import { useApp } from '../context/AppContext'
 import StarRating from '../components/StarRating'
 import Layout from '../components/Layout'
@@ -43,11 +43,15 @@ export default function RecipePage() {
     await saveRecipe(updated)
   }
 
+  function handlePrint() {
+    window.print()
+  }
+
   return (
     <Layout>
-      <div className="fade-in" style={{ maxWidth: '800px', margin: '0 auto' }}>
+      <div className="fade-in recipe-print-area" style={{ maxWidth: '800px', margin: '0 auto' }}>
         {/* Back */}
-        <Link to="/" style={{
+        <Link to="/" className="no-print" style={{
           display: 'inline-flex', alignItems: 'center', gap: '0.375rem',
           fontFamily: 'system-ui, sans-serif', fontSize: '0.8rem',
           color: 'var(--color-stone)', textDecoration: 'none', marginBottom: '1.5rem'
@@ -68,13 +72,16 @@ export default function RecipePage() {
         {/* Title + actions */}
         <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', gap: '1rem', marginBottom: '1rem' }}>
           <h1 style={{ fontSize: '2rem', color: 'var(--color-ink)', lineHeight: 1.2 }}>{title}</h1>
-          <div style={{ display: 'flex', gap: '0.5rem', flexShrink: 0 }}>
+          <div className="no-print" style={{ display: 'flex', gap: '0.5rem', flexShrink: 0 }}>
             <button onClick={toggleFavorite} title={isFav ? 'Retirer des favoris' : 'Ajouter aux favoris'} style={{
               background: 'none', border: 'none', cursor: 'pointer', padding: '0.375rem',
               color: isFav ? '#dc2626' : 'var(--color-stone)',
               fontSize: '1.1rem', transition: 'color 0.2s'
             }}>
               <Heart size={20} fill={isFav ? 'currentColor' : 'none'} />
+            </button>
+            <button onClick={handlePrint} title="Télécharger en PDF" className="btn-secondary" style={{ padding: '0.4rem 0.75rem' }}>
+              <FileDown size={14} />
             </button>
             {isAdmin && (
               <>
@@ -183,7 +190,7 @@ export default function RecipePage() {
                       borderBottom: '1px solid var(--color-warm)',
                       display: 'flex', alignItems: 'baseline', gap: '0.5rem'
                     }}>
-                      <span style={{ color: 'var(--color-stone)', fontSize: '0.7rem', flexShrink: 0 }}>◆</span>
+                      <span style={{ color: 'var(--color-terracotta)', fontSize: '0.6rem', flexShrink: 0 }}>◆</span>
                       {text}
                     </li>
                   )
@@ -203,11 +210,10 @@ export default function RecipePage() {
                     <li key={i} style={{ display: 'flex', gap: '1rem', marginBottom: '1.25rem' }}>
                       <span style={{
                         flexShrink: 0, width: '1.75rem', height: '1.75rem',
-                        borderRadius: '50%', backgroundColor: 'var(--color-warm)',
-                        border: '1px solid var(--color-stone)',
+                        borderRadius: '50%', backgroundColor: 'var(--color-terracotta)',
                         display: 'flex', alignItems: 'center', justifyContent: 'center',
                         fontFamily: 'system-ui, sans-serif', fontSize: '0.75rem',
-                        color: 'var(--color-earth)', fontWeight: 600, marginTop: '1px'
+                        color: 'white', fontWeight: 600, marginTop: '1px'
                       }}>{i + 1}</span>
                       <p style={{ fontFamily: 'system-ui, sans-serif', fontSize: '0.9rem', color: 'var(--color-ink)', lineHeight: 1.6, margin: 0 }}>
                         {text}
@@ -225,9 +231,9 @@ export default function RecipePage() {
           <div style={{
             marginTop: '2rem', padding: '1.25rem',
             backgroundColor: 'var(--color-warm)', borderRadius: '0.375rem',
-            borderLeft: '3px solid var(--color-bark)'
+            borderLeft: '3px solid var(--color-terracotta)'
           }}>
-            <h3 style={{ fontSize: '0.875rem', marginBottom: '0.75rem', color: 'var(--color-bark)' }}>Notes</h3>
+            <h3 style={{ fontSize: '0.875rem', marginBottom: '0.75rem', color: 'var(--color-terracotta)' }}>Notes</h3>
             {notes.map((note, i) => {
               const text = typeof note === 'string' ? note : note.text || ''
               return <p key={i} style={{ fontFamily: 'system-ui, sans-serif', fontSize: '0.875rem', color: 'var(--color-ink)', lineHeight: 1.6, marginBottom: i < notes.length - 1 ? '0.5rem' : 0 }}>{text}</p>

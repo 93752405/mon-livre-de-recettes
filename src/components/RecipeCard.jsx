@@ -26,10 +26,11 @@ export default function RecipeCard({ recipe }) {
           ) : (
             <div style={{
               width: '100%', height: '100%', display: 'flex', alignItems: 'center',
-              justifyContent: 'center', fontSize: '2.5rem',
+              justifyContent: 'center', fontSize: '2rem',
+              background: 'linear-gradient(135deg, var(--color-warm) 0%, #e8dfd0 100%)',
               color: 'var(--color-stone)'
             }}>
-              🍽
+              🫕
             </div>
           )}
           {status && (
