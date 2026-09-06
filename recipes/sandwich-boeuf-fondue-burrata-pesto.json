@@ -1,0 +1,62 @@
+{
+  "id": "sandwich-boeuf-fondue-burrata-pesto",
+  "title": "Sandwich bœuf à fondue, burrata et pesto",
+  "description": "Un sandwich d'été généreux sur ciabatta grillée, garni de tranches de bœuf à fondue saisies à la poêle, de burrata crémeuse et d'un filet de glace balsamique. Simple, rapide et savoureux.",
+  "image": {
+    "cover": ""
+  },
+  "meta": {
+    "category": "déjeuner",
+    "protein": "boeuf",
+    "season": "été",
+    "region": "italienne",
+    "status": "à essayer",
+    "rating": null,
+    "time": {
+      "prep_minutes": 10,
+      "cook_minutes": 10,
+      "total_minutes": 20,
+      "difficulty": "rapide"
+    },
+    "servings": 2,
+    "source": {
+      "type": "Instagram",
+      "name": "",
+      "url": ""
+    }
+  },
+  "tags": [
+    "boeuf",
+    "déjeuner",
+    "rapide",
+    "été",
+    "sandwich",
+    "burrata",
+    "pesto",
+    "sucré-salé"
+  ],
+  "ingredients": [
+    "200–300 g de viande à fondue de bœuf",
+    "2 pains ciabatta",
+    "1 boule de burrata",
+    "Pesto, en quantité généreuse",
+    "Roquette, au goût",
+    "Sel, poivre noir et basilic séché, au goût",
+    "Glace balsamique, pour terminer"
+  ],
+  "instructions": [
+    "Faire chauffer une poêle à feu vif. Saisir les tranches de viande à fondue rapidement, 1 à 2 min de chaque côté. Saler et poivrer. Réserver.",
+    "Faire griller les pains ciabatta jusqu'à ce qu'ils soient bien dorés.",
+    "Étaler une couche généreuse de pesto sur les deux faces de chaque ciabatta.",
+    "Garnir avec de la roquette, les tranches de bœuf saisies et la burrata déchirée.",
+    "Assaisonner de sel, poivre et basilic séché.",
+    "Terminer avec un filet de glace balsamique et servir immédiatement."
+  ],
+  "notes": [
+    "La viande à fondue cuit très rapidement — ne pas trop la cuire pour qu'elle reste tendre.",
+    "Idée variante : ajouter des tranches de pêche fraîche dans le sandwich pour une touche sucrée et estivale qui se marie très bien avec la burrata et le pesto.",
+    "Un pesto maison ou de qualité fait toute la différence dans cette recette."
+  ],
+  "created_at": "2026-09-06T10:00:00.000Z",
+  "updated_at": "2026-09-06T18:18:54.447Z"
+}
