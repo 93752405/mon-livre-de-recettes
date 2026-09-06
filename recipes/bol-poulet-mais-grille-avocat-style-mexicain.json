@@ -3,7 +3,7 @@
   "title": "Bol poulet, maïs grillé et avocat style mexicain",
   "description": "Un bol coloré et nourrissant sur du riz blanc, garni de poulet saisi épicé, de maïs grillé à la poêle nappé de mayo et de cotija, et d'avocat frais. Saveurs de maïs en épi de rue mexicain en version bol rapide.",
   "image": {
-    "cover": ""
+    "cover": "https://93752405.github.io/mon-livre-de-recettes/images/bol-poulet-mais-grille-avocat-style-mexicain.jpeg"
   },
   "meta": {
     "category": "souper",
@@ -59,5 +59,5 @@
     "Le fromage cotija peut être remplacé par de la feta si difficile à trouver."
   ],
   "created_at": "2026-09-06T10:00:00.000Z",
-  "updated_at": "2026-09-06T20:57:52.202Z"
+  "updated_at": "2026-09-06T21:04:41.935Z"
 }
