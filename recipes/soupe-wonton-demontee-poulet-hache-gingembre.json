@@ -1,0 +1,66 @@
+{
+  "id": "soupe-wonton-demontee-poulet-hache-gingembre",
+  "title": "Soupe wonton démontée au poulet haché et gingembre",
+  "description": "Une soupe wonton simplifiée où les feuilles de wonton sont coupées en lanières et cuites directement dans le bouillon avec du poulet haché, du gingembre frais et des oignons verts. Rapide, réconfortante et pleine de saveurs.",
+  "image": {
+    "cover": ""
+  },
+  "meta": {
+    "category": "soupe",
+    "protein": "poulet",
+    "season": "hiver",
+    "region": "asiatique",
+    "status": "à essayer",
+    "rating": null,
+    "time": {
+      "prep_minutes": 15,
+      "cook_minutes": 20,
+      "total_minutes": 35,
+      "difficulty": "rapide"
+    },
+    "servings": 4,
+    "source": {
+      "type": "autre",
+      "name": "",
+      "url": ""
+    }
+  },
+  "tags": [
+    "poulet",
+    "soupe",
+    "rapide",
+    "hiver",
+    "asiatique",
+    "gingembre",
+    "wonton",
+    "comfort food"
+  ],
+  "ingredients": [
+    "500 g de poulet haché",
+    "10 à 20 feuilles de wonton, décongelées et coupées en tiers",
+    "2 à 3 c. à soupe de gingembre frais, finement haché",
+    "4 à 5 oignons verts, émincés",
+    "2 L (environ 8 tasses) d'eau",
+    "1 c. à soupe de sauce soja",
+    "1 c. à soupe de saké",
+    "Bouillon de poulet concentré, au goût",
+    "Huile d'olive",
+    "Sel et poivre, au goût"
+  ],
+  "instructions": [
+    "Couper le gingembre en petits morceaux et émincer les oignons verts. Couper les feuilles de wonton décongelées en tiers et réserver.",
+    "Dans une grande casserole, chauffer un filet d'huile d'olive à feu moyen. Ajouter le poulet haché et faire revenir en émiettant la viande.",
+    "Ajouter le gingembre et les oignons verts. Mélanger et cuire 1 à 2 minutes.",
+    "Verser l'eau de façon à couvrir entièrement la viande avec 1 à 2 cm de plus. Ajouter la sauce soja, le saké et le bouillon de poulet. Saler et poivrer.",
+    "Porter à ébullition douce et laisser mijoter environ 10 minutes.",
+    "Ajouter les lanières de feuilles de wonton. Une écume blanche va se former à la surface — l'écumer soigneusement avec une cuillère.",
+    "Poursuivre la cuisson quelques minutes jusqu'à ce que les lanières de wonton soient translucides et bien cuites. Servir chaud."
+  ],
+  "notes": [
+    "L'écume blanche qui se forme en surface est une réaction normale des protéines de la viande et des feuilles de wonton — il suffit de l'écumer pour obtenir un bouillon clair.",
+    "Les feuilles de wonton coupées en tiers donnent des lanières de taille irrégulière qui rappellent les pâtes — c'est le charme de cette version démontée.",
+    "Pour plus de profondeur, remplacer une partie de l'eau par du bouillon de poulet maison ou du commerce."
+  ],
+  "created_at": "2026-09-06T10:00:00.000Z",
+  "updated_at": "2026-09-06T19:52:33.488Z"
+}
