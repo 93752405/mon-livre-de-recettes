@@ -3,7 +3,7 @@
   "title": "Soupe avgolemono au poulet, orzo et citron",
   "description": "Une soupe grecque réconfortante à base de poulet mijoté effiloché, d'orzo et d'un mélange crémeux d'œufs et de citron qui rend le bouillon soyeux et légèrement acidulé. Un classique qui soigne l'âme.",
   "image": {
-    "cover": ""
+    "cover": "https://93752405.github.io/mon-livre-de-recettes/images/soupe-avgolemono-poulet-orzo-citron.jpeg"
   },
   "meta": {
     "category": "soupe",
@@ -74,5 +74,5 @@
     "Cette soupe se congèle sans le mélange avgolemono — l'ajouter frais à la décongélation pour une meilleure texture."
   ],
   "created_at": "2026-09-06T10:00:00.000Z",
-  "updated_at": "2026-09-06T20:02:48.526Z"
+  "updated_at": "2026-09-06T20:05:31.323Z"
 }
