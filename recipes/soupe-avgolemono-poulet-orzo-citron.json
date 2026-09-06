@@ -1,0 +1,78 @@
+{
+  "id": "soupe-avgolemono-poulet-orzo-citron",
+  "title": "Soupe avgolemono au poulet, orzo et citron",
+  "description": "Une soupe grecque réconfortante à base de poulet mijoté effiloché, d'orzo et d'un mélange crémeux d'œufs et de citron qui rend le bouillon soyeux et légèrement acidulé. Un classique qui soigne l'âme.",
+  "image": {
+    "cover": ""
+  },
+  "meta": {
+    "category": "soupe",
+    "protein": "poulet",
+    "season": "hiver",
+    "region": "grecque",
+    "status": "à essayer",
+    "rating": null,
+    "time": {
+      "prep_minutes": 20,
+      "cook_minutes": 60,
+      "total_minutes": 80,
+      "difficulty": "standard"
+    },
+    "servings": 4,
+    "source": {
+      "type": "Instagram",
+      "name": "jujumaoeats",
+      "url": ""
+    }
+  },
+  "tags": [
+    "poulet",
+    "soupe",
+    "standard",
+    "hiver",
+    "grec",
+    "citron",
+    "comfort food",
+    "pâtes"
+  ],
+  "ingredients": [
+    "— Soupe —",
+    "5 à 8 hauts de cuisses de poulet avec os (ou 1 petit poulet entier)",
+    "Huile d'olive",
+    "1 c. à soupe d'assaisonnement italien",
+    "1 oignon, coupé en dés",
+    "5 à 10 gousses d'ail, hachées",
+    "180 ml (3/4 tasse) de céleri, coupé en dés",
+    "1 carotte, coupée en dés",
+    "Bouillon de poulet, en quantité suffisante",
+    "180 ml (3/4 tasse) d'orzo",
+    "Feuilles de laurier (facultatif)",
+    "Sel et poivre, au goût",
+    "— Mélange avgolemono —",
+    "4 œufs",
+    "Le jus de 2 à 3 citrons",
+    "Le zeste de 1 citron",
+    "Un peu de bouillon chaud réservé de la soupe",
+    "— Garniture —",
+    "Aneth frais ou persil frais, haché",
+    "Filet d'huile d'olive"
+  ],
+  "instructions": [
+    "Assaisonner les morceaux de poulet avec du sel et du poivre. Dans une grande casserole, chauffer un filet d'huile d'olive à feu moyen-vif et saisir le poulet jusqu'à ce qu'il soit bien doré de tous les côtés. Réserver.",
+    "Dans la même casserole, faire revenir l'oignon, l'ail, le céleri et la carotte jusqu'à ce qu'ils soient parfumés et légèrement ramollis. Ajouter l'assaisonnement italien et mélanger.",
+    "Remettre le poulet dans la casserole, ajouter les feuilles de laurier si désiré, puis couvrir de bouillon de poulet. Laisser mijoter à feu doux environ 45 minutes, jusqu'à ce que le poulet soit très tendre.",
+    "Retirer le poulet de la casserole, l'effilocher et le remettre dans la soupe. Retirer les feuilles de laurier.",
+    "Ajouter l'orzo et laisser cuire 8 à 10 minutes dans le bouillon jusqu'à ce qu'il soit al dente.",
+    "Pendant ce temps, préparer le mélange avgolemono : dans un bol, fouetter les œufs avec le jus et le zeste de citron. Pour éviter que les œufs ne cuisent, ajouter en filet une louche de bouillon chaud réservé tout en fouettant constamment — c'est la technique de tempérage.",
+    "Une fois tempéré, incorporer délicatement le mélange avgolemono dans la casserole en remuant doucement. Ne pas faire bouillir.",
+    "Servir chaud, garni d'aneth ou de persil frais et d'un filet d'huile d'olive."
+  ],
+  "notes": [
+    "Le tempérage des œufs est une étape cruciale : verser le bouillon chaud très lentement en fouettant sans arrêt pour éviter de se retrouver avec des œufs brouillés dans la soupe.",
+    "Ne jamais faire bouillir la soupe après avoir ajouté le mélange avgolemono, cela ferait cailler les œufs.",
+    "L'orzo continue de gonfler dans le bouillon — si la soupe est préparée à l'avance, la cuire séparément et l'ajouter au moment de servir.",
+    "Cette soupe se congèle sans le mélange avgolemono — l'ajouter frais à la décongélation pour une meilleure texture."
+  ],
+  "created_at": "2026-09-06T10:00:00.000Z",
+  "updated_at": "2026-09-06T20:02:48.526Z"
+}
