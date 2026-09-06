@@ -11,6 +11,7 @@ export default function RecipeCard({ recipe }) {
   return (
     <Link to={`/recette/${id}`} style={{ textDecoration: 'none', display: 'block' }}>
       <div className="card" style={{ height: '100%', display: 'flex', flexDirection: 'column' }}>
+        {/* Image */}
         <div style={{
           height: '200px',
           backgroundColor: 'var(--color-warm)',
@@ -25,10 +26,11 @@ export default function RecipeCard({ recipe }) {
           ) : (
             <div style={{
               width: '100%', height: '100%', display: 'flex', alignItems: 'center',
-              justifyContent: 'center', fontSize: '2.5rem',
+              justifyContent: 'center', fontSize: '2rem',
+              background: 'linear-gradient(135deg, var(--color-warm) 0%, #e8dfd0 100%)',
               color: 'var(--color-stone)'
             }}>
-              🍽
+              🥕
             </div>
           )}
           {status && (
@@ -43,6 +45,7 @@ export default function RecipeCard({ recipe }) {
           )}
         </div>
 
+        {/* Content */}
         <div style={{ padding: '1rem', flex: 1, display: 'flex', flexDirection: 'column', gap: '0.5rem' }}>
           <div>
             <h3 style={{

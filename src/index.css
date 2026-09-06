@@ -2,14 +2,16 @@
 
 @layer base {
   :root {
-    --color-sand: #f5f0e8;
-    --color-warm: #ede8df;
-    --color-stone: #c4b9a8;
-    --color-bark: #8b7355;
+    --color-sand: #faf6ef;
+    --color-warm: #f0ebe0;
+    --color-stone: #c0b49f;
+    --color-bark: #9a7d5a;
     --color-earth: #5c4a35;
     --color-ink: #2c2416;
-    --color-sage: #7d8c6e;
+    --color-sage: #6b8c5e;
     --color-blush: #d4a89a;
+    --color-terracotta: #bf6f50;
+    --color-cream: #fffdf9;
   }
 
   * { box-sizing: border-box; }
@@ -37,8 +39,8 @@
 
 @layer components {
   .btn-primary {
-    background-color: var(--color-earth);
-    color: var(--color-sand);
+    background-color: var(--color-terracotta);
+    color: white;
     padding: 0.625rem 1.5rem;
     border-radius: 0.25rem;
     font-family: system-ui, sans-serif;
@@ -52,7 +54,7 @@
     gap: 0.5rem;
     text-decoration: none;
   }
-  .btn-primary:hover { background-color: var(--color-ink); }
+  .btn-primary:hover { background-color: #a05a3e; }
 
   .btn-secondary {
     background-color: transparent;
@@ -71,7 +73,7 @@
     text-decoration: none;
   }
   .btn-secondary:hover {
-    border-color: var(--color-earth);
+    border-color: var(--color-bark);
     background-color: var(--color-warm);
   }
 
@@ -98,18 +100,18 @@
     border-radius: 999px;
     font-family: system-ui, sans-serif;
     font-size: 0.75rem;
-    background-color: var(--color-warm);
-    color: var(--color-bark);
-    border: 1px solid var(--color-stone);
+    background-color: #eef4eb;
+    color: var(--color-sage);
+    border: 1px solid #c8dcc0;
     cursor: pointer;
     transition: all 0.15s;
     white-space: nowrap;
     user-select: none;
   }
   .tag:hover, .tag.active {
-    background-color: var(--color-earth);
-    color: var(--color-sand);
-    border-color: var(--color-earth);
+    background-color: var(--color-sage);
+    color: white;
+    border-color: var(--color-sage);
   }
 
   .input-field {
@@ -117,25 +119,25 @@
     padding: 0.625rem 0.875rem;
     border: 1px solid var(--color-stone);
     border-radius: 0.25rem;
-    background-color: white;
+    background-color: var(--color-cream);
     font-family: system-ui, sans-serif;
     font-size: 0.875rem;
     color: var(--color-ink);
     transition: border-color 0.2s;
     outline: none;
   }
-  .input-field:focus { border-color: var(--color-bark); }
+  .input-field:focus { border-color: var(--color-terracotta); }
 
   .card {
-    background-color: white;
+    background-color: var(--color-cream);
     border-radius: 0.5rem;
     overflow: hidden;
     transition: transform 0.2s, box-shadow 0.2s;
     border: 1px solid var(--color-warm);
   }
   .card:hover {
-    transform: translateY(-2px);
-    box-shadow: 0 8px 24px rgba(44, 36, 22, 0.08);
+    transform: translateY(-3px);
+    box-shadow: 0 10px 28px rgba(191, 111, 80, 0.12);
   }
 
   .label {
@@ -159,3 +161,42 @@
 ::-webkit-scrollbar { width: 6px; }
 ::-webkit-scrollbar-track { background: var(--color-warm); }
 ::-webkit-scrollbar-thumb { background: var(--color-stone); border-radius: 3px; }
+
+/* ── Impression / PDF ──────────────────────────────────── */
+@media print {
+  .no-print { display: none !important; }
+
+  body {
+    background: white !important;
+    font-size: 11pt;
+    color: #1a1208;
+  }
+
+  header, footer { display: none !important; }
+
+  main {
+    padding: 0 !important;
+    max-width: 100% !important;
+  }
+
+  .card { box-shadow: none !important; border: none !important; }
+
+  .recipe-print-area {
+    max-width: 100%;
+  }
+
+  h1 { font-size: 22pt; margin-bottom: 6pt; }
+  h2 { font-size: 13pt; margin-top: 16pt; margin-bottom: 6pt; }
+
+  .recipe-grid {
+    grid-template-columns: 1fr 1.6fr !important;
+    gap: 24pt !important;
+  }
+
+  img { max-height: 200pt; object-fit: cover; border-radius: 4pt; }
+
+  ul, ol { page-break-inside: auto; }
+  li { page-break-inside: avoid; }
+
+  a { color: inherit !important; text-decoration: none !important; }
+}
