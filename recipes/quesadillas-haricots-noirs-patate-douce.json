@@ -1,0 +1,66 @@
+{
+  "id": "quesadillas-haricots-noirs-patate-douce",
+  "title": "Quesadillas haricots noirs et patate douce",
+  "description": "Des quesadillas végétariennes rapides et nourrissantes, garnies d'un mélange de haricots noirs, de salsa et de patate douce rôtie, dorées à la poêle et servies avec jalapeño, oignon et persil.",
+  "image": {
+    "cover": ""
+  },
+  "meta": {
+    "category": "souper",
+    "protein": "végétarien",
+    "season": "toutes saisons",
+    "region": "mexicaine",
+    "status": "à essayer",
+    "rating": null,
+    "time": {
+      "prep_minutes": 5,
+      "cook_minutes": 40,
+      "total_minutes": 45,
+      "difficulty": "rapide"
+    },
+    "servings": 2,
+    "source": {
+      "type": "autre",
+      "name": "",
+      "url": ""
+    }
+  },
+  "tags": [
+    "végétarien",
+    "souper",
+    "rapide",
+    "toutes saisons",
+    "mexicain",
+    "patate douce",
+    "haricots noirs",
+    "meal prep"
+  ],
+  "ingredients": [
+    "1 patate douce",
+    "1 boîte de haricots noirs, rincés et égouttés",
+    "Salsa (environ la moitié de la quantité de haricots noirs)",
+    "4 petites tortillas",
+    "Fromage cheddar râpé, en quantité généreuse",
+    "Huile d'olive",
+    "Sel et poivre",
+    "— Garniture —",
+    "Oignon émincé",
+    "Persil frais haché",
+    "Jalapeño tranché (dans la garniture ou à l'intérieur de la quesadilla, selon goût)"
+  ],
+  "instructions": [
+    "Préchauffer le four à 350 °F (175 °C). Couper la patate douce en deux sur la longueur, badigeonner la chair d'huile d'olive, saler et poivrer. Déposer face coupée vers le bas sur une plaque de cuisson. Enfourner 35 minutes jusqu'à ce qu'elle soit bien tendre.",
+    "Dans un bol, mélanger les haricots noirs et la salsa. Doser un peu plus de haricots que de salsa pour éviter un mélange trop liquide.",
+    "À l'aide d'une cuillère, retirer la chair de la patate douce et l'incorporer au mélange de haricots et de salsa. Mélanger grossièrement.",
+    "Répartir la garniture sur la moitié de chaque tortilla. Ajouter une généreuse quantité de cheddar râpé. Plier la tortilla en deux.",
+    "Chauffer un peu d'huile dans une poêle à feu moyen. Faire dorer les quesadillas 2 à 3 minutes de chaque côté jusqu'à ce qu'elles soient bien croustillantes et dorées.",
+    "Servir avec de l'oignon émincé, du persil frais et du jalapeño tranché en garniture, ou insérer le jalapeño directement à l'intérieur selon la préférence."
+  ],
+  "notes": [
+    "La patate douce peut être cuite à l'avance et conservée au réfrigérateur pour accélérer la préparation en semaine.",
+    "Le mélange haricots-salsa-patate douce se congèle très bien en portions — idéal pour un repas express.",
+    "Ajuster la quantité de salsa selon la texture souhaitée : moins de salsa pour une garniture plus ferme et facile à manipuler."
+  ],
+  "created_at": "2026-09-06T10:00:00.000Z",
+  "updated_at": "2026-09-06T18:45:17.323Z"
+}
