@@ -1,0 +1,87 @@
+{
+  "id": "sandwich-poulet-croustillant-sauce-citron-ail",
+  "title": "Sandwich poulet croustillant sauce citron et ail (air fryer)",
+  "description": "Un sandwich généreux sur ciabatta grillée avec un haut de cuisse de poulet pané aux cornflakes et cuit à la friteuse à air, nappé d'une sauce citronnée à l'ail, au miel et aux herbes. Croustillant, juteux et plein de saveurs.",
+  "image": {
+    "cover": ""
+  },
+  "meta": {
+    "category": "souper",
+    "protein": "poulet",
+    "season": "toutes saisons",
+    "region": "",
+    "status": "à essayer",
+    "rating": null,
+    "time": {
+      "prep_minutes": 20,
+      "cook_minutes": 20,
+      "total_minutes": 40,
+      "difficulty": "standard"
+    },
+    "servings": 2,
+    "source": {
+      "type": "autre",
+      "name": "",
+      "url": ""
+    }
+  },
+  "tags": [
+    "poulet",
+    "souper",
+    "standard",
+    "toutes saisons",
+    "sandwich",
+    "air fryer",
+    "citron",
+    "croustillant"
+  ],
+  "ingredients": [
+    "— Poulet pané (air fryer) —",
+    "2 hauts de cuisses de poulet désossés sans peau",
+    "1 à 2 tasses de cornflakes écrasés",
+    "1 tasse de farine",
+    "1 c. à soupe de paprika",
+    "1 c. à soupe de poudre d'ail",
+    "1 c. à soupe de poudre d'oignon",
+    "2 c. à soupe de poivre noir",
+    "2 c. à soupe de sel",
+    "2 œufs battus",
+    "Huile en spray (avocat recommandé)",
+    "— Sauce citron et ail —",
+    "2 citrons (jus + zeste)",
+    "2 c. à soupe d'huile d'olive",
+    "5 gousses d'ail, hachées",
+    "3 c. à soupe de miel",
+    "60 ml (1/4 tasse) d'eau",
+    "1 c. à soupe d'assaisonnement italien",
+    "1 c. à café de flocons de piment fort",
+    "60 ml (1/4 tasse) de persil frais haché",
+    "1/2 c. à soupe de piment rouge écrasé (et un peu plus pour garnir)",
+    "— Assemblage —",
+    "1 baguette ciabatta, tranchée",
+    "Persil frais supplémentaire",
+    "Beurre ou mayonnaise (facultatif)",
+    "Salade de concombre",
+    "Crème sure",
+    "Moutarde à l'ancienne"
+  ],
+  "instructions": [
+    "Préparer le mélange de farine : dans un bol, combiner la farine, le paprika, la poudre d'ail, la poudre d'oignon, le poivre noir et le sel. Bien mélanger.",
+    "Mettre en place la station de panure avec trois bols : bol 1 — farine assaisonnée ; bol 2 — œufs battus ; bol 3 — cornflakes écrasés.",
+    "Paner le poulet : tremper chaque haut de cuisse dans la farine en l'enrobant bien, puis dans les œufs battus en laissant l'excédent s'égoutter, puis presser fermement dans les cornflakes pour couvrir chaque surface.",
+    "Placer les hauts de cuisses panés dans le panier de la friteuse à air en laissant de l'espace autour de chaque morceau. Vaporiser généreusement d'huile.",
+    "Cuire à 385 °F (196 °C) pendant 12 minutes. À mi-cuisson (6 minutes), retourner chaque morceau et vaporiser à nouveau d'huile. Poursuivre la cuisson jusqu'à ce que la température interne atteigne 165 °F (74 °C).",
+    "Transférer le poulet cuit sur une grille ou une passoire pour maintenir le croustillant du dessous.",
+    "Préparer la sauce : dans une poêle à feu moyen, chauffer l'huile d'olive et faire revenir l'ail haché environ 30 secondes. Ajouter le jus de citron, le miel, l'eau, l'assaisonnement italien et les flocons de piment. Laisser mijoter 1 à 2 minutes jusqu'à légère réduction. Incorporer le persil haché et le piment écrasé. Ajuster l'acidité, le sucré ou le piquant au goût.",
+    "Enrober le poulet de sauce ou la napper directement sur le dessus au moment de servir pour préserver le croustillant.",
+    "Assembler le sandwich : toaster les tranches de ciabatta. Étaler une fine couche de beurre ou de mayonnaise si désiré. Déposer un haut de cuisse, ajouter un peu de sauce supplémentaire, garnir de salade de concombre, de crème sure et de moutarde à l'ancienne. Refermer, presser légèrement et couper en diagonale."
+  ],
+  "notes": [
+    "Pour préserver le maximum de croustillant, napper la sauce sur le dessus plutôt que d'enrober le poulet dedans.",
+    "Si vous n'avez pas de thermomètre de cuisson, couper un morceau en deux pour vérifier que l'intérieur est bien blanc et cuit à cœur.",
+    "Le zeste de citron dans la sauce apporte une intensité aromatique supplémentaire — ne pas hésiter à l'ajouter.",
+    "Les cornflakes donnent une panure particulièrement croustillante et légère, supérieure à la chapelure classique pour la cuisson à l'air."
+  ],
+  "created_at": "2026-09-06T10:00:00.000Z",
+  "updated_at": "2026-09-06T20:21:35.321Z"
+}
