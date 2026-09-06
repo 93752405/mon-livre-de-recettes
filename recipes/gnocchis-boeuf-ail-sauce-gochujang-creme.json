@@ -3,7 +3,7 @@
   "title": "Gnocchis au bœuf à l'ail et sauce gochujang crémeuse",
   "description": "Des gnocchis de pommes de terre enrobés d'une sauce crémeuse au gochujang et au parmesan, avec du bœuf haché croustillant à l'ail. Un plat réconfortant et épicé prêt en 25 minutes.",
   "image": {
-    "cover": ""
+    "cover": "https://93752405.github.io/mon-livre-de-recettes/images/gnocchis-boeuf-ail-sauce-gochujang-creme.jpeg"
   },
   "meta": {
     "category": "souper",
@@ -58,5 +58,5 @@
     "Le gochujang perd son côté âcre et développe une profondeur sucrée-épicée quand il est saisi quelques instants dans la poêle avant d'ajouter la crème."
   ],
   "created_at": "2026-09-06T10:00:00.000Z",
-  "updated_at": "2026-09-06T20:59:38.173Z"
+  "updated_at": "2026-09-06T21:11:06.029Z"
 }
