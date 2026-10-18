@@ -1,0 +1,74 @@
+{
+  "id": "potage-carottes-roties-tofu-gingembre",
+  "title": "Potage de carottes rôties au gingembre et tofu soyeux",
+  "description": "Un potage onctueux et nourrissant de carottes et d'ail rôtis au four, mixés avec du bouillon d'os, du tofu soyeux et du gingembre frais. Épicé au curry et au paprika fumé, garni de parmesan et de graines grillées.",
+  "image": {
+    "cover": ""
+  },
+  "meta": {
+    "category": "soupe",
+    "protein": "tofu",
+    "season": "automne",
+    "region": "",
+    "status": "à essayer",
+    "rating": null,
+    "time": {
+      "prep_minutes": 10,
+      "cook_minutes": 50,
+      "total_minutes": 60,
+      "difficulty": "standard"
+    },
+    "servings": 4,
+    "source": {
+      "type": "Instagram",
+      "name": "shredhappens",
+      "url": ""
+    }
+  },
+  "tags": [
+    "tofu",
+    "soupe",
+    "standard",
+    "automne",
+    "carottes",
+    "santé",
+    "sans gluten",
+    "meal prep"
+  ],
+  "ingredients": [
+    "900 g (2 lb) de carottes, pelées et coupées en morceaux",
+    "1 oignon blanc, grossièrement haché",
+    "10 à 12 gousses d'ail entières",
+    "1 c. à soupe d'huile d'olive",
+    "1 c. à café de poudre de curry",
+    "1 c. à café de paprika fumé",
+    "Sel et poivre noir, au goût",
+    "1 L (4 tasses) de bouillon d'os (ou bouillon de poulet)",
+    "1 bloc de tofu mou ou soyeux (ou 3 portions de cottage cheese)",
+    "1 c. à soupe de gingembre frais râpé",
+    "Le jus d'un demi-citron",
+    "Flocons de piment fort, au goût",
+    "— Garniture —",
+    "Parmesan fraîchement râpé",
+    "Basilic frais",
+    "Un filet de jus de citron",
+    "Graines grillées (tournesol, citrouille, etc.)"
+  ],
+  "instructions": [
+    "Préchauffer le four à 400 °F (200 °C).",
+    "Déposer les carottes, l'oignon et les gousses d'ail sur une plaque recouverte de papier parchemin. Arroser d'huile d'olive et assaisonner avec la poudre de curry, le paprika fumé, le sel et le poivre. Bien mélanger. Le sel est important — ne pas être timide.",
+    "Rôtir au four 45 à 50 minutes jusqu'à ce que les légumes soient tendres et bien dorés.",
+    "Transférer les légumes rôtis dans un blender ou une grande casserole.",
+    "Ajouter le bouillon d'os, le tofu soyeux (ou le cottage cheese), le gingembre frais râpé, le jus de citron et les flocons de piment fort.",
+    "Mixer jusqu'à obtenir une texture lisse et crémeuse. Goûter et ajuster avec du sel, de la poudre de curry ou du jus de citron selon les préférences.",
+    "Verser dans des bols et garnir de parmesan fraîchement râpé, de basilic frais, d'un filet de jus de citron et de graines grillées."
+  ],
+  "notes": [
+    "Le tofu soyeux peut être remplacé par 3 portions de cottage cheese pour une version encore plus riche en protéines.",
+    "Le sel sur les légumes avant de rôtir est essentiel pour développer les saveurs — ne pas hésiter à en mettre généreusement.",
+    "Ce potage se congèle très bien en portions individuelles — idéal pour un repas rapide en semaine.",
+    "Pour un résultat encore plus velouté, mixer par étapes en tenant le couvercle du blender avec un linge pour éviter les éclaboussures de liquide chaud."
+  ],
+  "created_at": "2026-10-18T10:00:00.000Z",
+  "updated_at": "2026-10-18T11:39:08.659Z"
+}
