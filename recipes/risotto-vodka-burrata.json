@@ -1,0 +1,72 @@
+{
+  "id": "risotto-vodka-burrata",
+  "title": "Risotto vodka et burrata",
+  "description": "Un risotto onctueux à la sauce vodka, avec pâte de tomate, crème et parmesan, surmonté d'une boule de burrata fondante et d'une touche de piment de Cayenne. Simple, élégant et réconfortant.",
+  "image": {
+    "cover": ""
+  },
+  "meta": {
+    "category": "souper",
+    "protein": "végétarien",
+    "season": "toutes saisons",
+    "region": "italienne",
+    "status": "à essayer",
+    "rating": null,
+    "time": {
+      "prep_minutes": 10,
+      "cook_minutes": 30,
+      "total_minutes": 40,
+      "difficulty": "standard"
+    },
+    "servings": 2,
+    "source": {
+      "type": "autre",
+      "name": "",
+      "url": ""
+    }
+  },
+  "tags": [
+    "végétarien",
+    "souper",
+    "standard",
+    "toutes saisons",
+    "risotto",
+    "crémeux",
+    "burrata",
+    "comfort food"
+  ],
+  "ingredients": [
+    "300 g (environ 1,5 tasse) de riz à risotto (arborio ou carnaroli)",
+    "1 oignon, finement haché",
+    "2 gousses d'ail, hachées",
+    "4 c. à soupe de pâte de tomate",
+    "1 shot (45 ml) de vodka",
+    "1 à 1,5 L de bouillon de poulet chaud",
+    "180 ml (3/4 tasse) de crème à cuisson (15 % ou 35 %)",
+    "60 ml (1/4 tasse) de parmesan râpé",
+    "Huile d'olive",
+    "Sel, poivre et piment de Cayenne, au goût",
+    "— Pour servir —",
+    "1 boule de burrata",
+    "Échalote finement émincée",
+    "Piment de Cayenne, sel et poivre",
+    "Filet d'huile d'olive"
+  ],
+  "instructions": [
+    "Chauffer un filet d'huile d'olive dans une grande poêle à feu moyen. Faire revenir l'oignon et l'ail jusqu'à ce qu'ils soient translucides et parfumés.",
+    "Ajouter le riz à risotto et le faire revenir 1 à 2 minutes en remuant, jusqu'à ce que les grains deviennent légèrement translucides.",
+    "Incorporer la pâte de tomate et mélanger pour bien enrober le riz.",
+    "Verser la vodka et laisser cuire 1 minute en remuant pour que l'alcool s'évapore.",
+    "Ajouter le bouillon de poulet chaud une louche à la fois, en attendant que chaque ajout soit absorbé avant d'en rajouter. Maintenir un petit bouillon doux tout au long de la cuisson. Répéter pendant environ 20 minutes jusqu'à ce que le riz soit al dente.",
+    "Verser la crème et mélanger doucement. Ajouter le parmesan râpé. Assaisonner de sel, poivre et piment de Cayenne au goût. La texture doit être onctueuse et légèrement coulante.",
+    "Servir dans des assiettes creuses. Déposer une boule de burrata sur le dessus. Garnir d'échalote émincée, d'une pincée de piment de Cayenne, de sel, de poivre et d'un filet d'huile d'olive."
+  ],
+  "notes": [
+    "Quantité de riz estimée à 300 g — ajuster selon l'appétit et le nombre de portions souhaitées.",
+    "La crème 35 % donnera une texture plus riche et plus onctueuse ; la 15 % est plus légère mais fonctionne très bien aussi.",
+    "Ne pas sauter l'étape d'évaporation de la vodka — elle apporte une légère profondeur sans goût d'alcool si bien cuite.",
+    "Le risotto doit être servi immédiatement : il continue d'absorber le liquide et épaissit rapidement hors du feu."
+  ],
+  "created_at": "2026-10-18T10:00:00.000Z",
+  "updated_at": "2026-10-18T11:23:54.955Z"
+}
