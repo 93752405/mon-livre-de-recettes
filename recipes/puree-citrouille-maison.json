@@ -1,0 +1,58 @@
+{
+  "id": "puree-citrouille-maison",
+  "title": "Purée de citrouille maison",
+  "description": "Une purée de citrouille sucrée 100 % maison, sans additifs ni épices, obtenue en rôtissant une petite citrouille entière au four. Se congèle facilement en portions de 125 ml (1/2 tasse) dans des moules à muffins.",
+  "image": {
+    "cover": ""
+  },
+  "meta": {
+    "category": "accompagnement",
+    "protein": "végétalien",
+    "season": "automne",
+    "region": "",
+    "status": "à essayer",
+    "rating": null,
+    "time": {
+      "prep_minutes": 5,
+      "cook_minutes": 50,
+      "total_minutes": 55,
+      "difficulty": "rapide"
+    },
+    "servings": 4,
+    "source": {
+      "type": "famille",
+      "name": "",
+      "url": ""
+    }
+  },
+  "tags": [
+    "végétalien",
+    "accompagnement",
+    "automne",
+    "citrouille",
+    "congélation",
+    "meal prep",
+    "sans gluten",
+    "base"
+  ],
+  "ingredients": [
+    "1 petite citrouille sucrée (type sugar pumpkin)"
+  ],
+  "instructions": [
+    "Retirer le pédoncule (la tige) de la citrouille à la main. Couper la citrouille en deux avec un grand couteau. Ne pas enlever les graines ni les filaments à cette étape.",
+    "Déposer les deux moitiés face coupée vers le bas sur une plaque recouverte de papier parchemin.",
+    "Enfourner à 375 °F (190 °C) pendant 45 à 50 minutes, jusqu'à ce que la chair soit très tendre.",
+    "Sortir du four et laisser tiédir jusqu'à ce que la citrouille soit suffisamment froide pour être manipulée.",
+    "La peau extérieure se décolle facilement à la main, à la fourchette ou à l'aide d'un couteau. Retirer uniquement la chair.",
+    "Transférer la chair dans un robot culinaire (et non un blender) et mixer jusqu'à obtenir une purée lisse et homogène. Ne rien ajouter.",
+    "Utiliser immédiatement dans une recette, ou congeler en portions de 125 ml (1/2 tasse) dans des moules à muffins."
+  ],
+  "notes": [
+    "Pas besoin d'enlever les graines avant la cuisson — elles se retirent facilement avec la peau une fois la citrouille rôtie.",
+    "Le robot culinaire est préférable au blender pour obtenir une texture lisse et épaisse sans trop liquéfier la purée.",
+    "La purée se congèle très bien dans des moules à muffins : une fois congelée, démouler et transférer dans un sac de congélation. Chaque portion correspond à environ 125 ml (1/2 tasse), idéal pour les recettes.",
+    "Aucun assaisonnement ajouté — la purée reste neutre et polyvalente pour toutes les utilisations (sucrées ou salées)."
+  ],
+  "created_at": "2026-10-18T10:00:00.000Z",
+  "updated_at": "2026-10-18T11:31:21.454Z"
+}
