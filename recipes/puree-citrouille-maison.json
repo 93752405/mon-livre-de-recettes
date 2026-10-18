@@ -3,15 +3,15 @@
   "title": "Purée de citrouille maison",
   "description": "Une purée de citrouille sucrée 100 % maison, sans additifs ni épices, obtenue en rôtissant une petite citrouille entière au four. Se congèle facilement en portions de 125 ml (1/2 tasse) dans des moules à muffins.",
   "image": {
-    "cover": ""
+    "cover": "https://93752405.github.io/mon-livre-de-recettes/images/puree-citrouille-maison.png"
   },
   "meta": {
     "category": "accompagnement",
     "protein": "végétalien",
     "season": "automne",
     "region": "",
-    "status": "à essayer",
-    "rating": null,
+    "status": "approuvée",
+    "rating": 5,
     "time": {
       "prep_minutes": 5,
       "cook_minutes": 50,
@@ -20,8 +20,8 @@
     },
     "servings": 4,
     "source": {
-      "type": "famille",
-      "name": "",
+      "type": "Instagram",
+      "name": "jose.elcook",
       "url": ""
     }
   },
@@ -54,5 +54,5 @@
     "Aucun assaisonnement ajouté — la purée reste neutre et polyvalente pour toutes les utilisations (sucrées ou salées)."
   ],
   "created_at": "2026-10-18T10:00:00.000Z",
-  "updated_at": "2026-10-18T11:31:21.454Z"
+  "updated_at": "2026-10-18T11:34:59.649Z"
 }
